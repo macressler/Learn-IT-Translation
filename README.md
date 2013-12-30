@@ -1,4 +1,3 @@
 Learn-IT-Translation
 ====================
-
-s
+Привет
