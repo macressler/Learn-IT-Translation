@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_entries_lang">
+        <item>Українська</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="pref_entryvalues_lang">
+        <item>uk</item>
+        <item>ru</item>
+    </string-array>
+    <string-array name="drawer_names">
+        <item>Главная</item>
+        <item>Теория</item>
+        <item>Настройки</item>
+        <item>Выход</item>
+    </string-array>
+    <string-array name="theory_algebra_names">
+        <item>Числа</item>
+        <item>Арифметика</item>
+        <item>Проценты</item>
+        <item>Целые выражения и степени</item>
+        <item>Формулы сокращенного умножения</item>
+        <item>Дробно-рациональные выражения</item>
+        <item>Иррациональные выражения</item>
+        <item>Логарифмы</item>
+        <item>Тригонометрия, формулы</item>
+        <item>Рациональные выражения</item>
+        <item>Рациональные уравнения</item>
+        <item>Рациональные неравенства</item>
+        <item>Иррациональные уравнения</item>
+        <item>Иррациональные неравенства</item>
+        <item>Показательные уравнения</item>
+        <item>Показательные неравенства</item>
+        <item>Логарифмические уравнения</item>
+        <item>Логарифмические неравенства</item>
+        <item>Тригонометрические уравнения</item>
+        <item>Прогрессии</item>
+        <item>Элементарные функции</item>
+        <item>Производная функции</item>
+        <item>Первообразная, интеграл</item>
+        <item>Элементы комбинаторики</item>
+        <item>Начала теории вероятностей</item>
+        <item>Элементы статистики</item>
+    </string-array>
+    <string-array name="theory_geometry_names">
+        <item>Треугольник</item>
+        <item>Прямоугольный треугольник</item>
+        <item>Равнобедренный треугольник</item>
+        <item>Четырехугольники</item>
+        <item>Многоугольники</item>
+        <item>Окружность, круг и их элементы</item>
+        <item>Аксиомы стереометрии</item>
+        <item>Прямые и плоскости в пространстве</item>
+        <item>Призма</item>
+        <item>Пирамида</item>
+        <item>Цилиндр</item>
+        <item>Конус</item>
+        <item>Шар</item>
+        <item>Координаты</item>
+        <item>Векторы</item>
+        <item>Преобразование фигур</item>
+        <item>Простейшие геометрические фигуры</item>
+    </string-array>
+    <string-array name="donatedialog">
+        <item>Яндекс.Деньги</item>
+        <item>WebMoney</item>
+        <item>Банковский счёт</item>
+    </string-array>
+    <string-array name="drawer_names_theory">
+        <item>Главная</item>
+        <item>Теория</item>
+        <item>Настройки</item>
+    </string-array>
+</resources>

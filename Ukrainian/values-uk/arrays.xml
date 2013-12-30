@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_names">
+        <item>Головна</item>
+        <item>Теорія</item>
+        <item>Налаштування</item>
+        <item>Вихід</item>
+    </string-array>
+    <string-array name="theory_algebra_names">
+		<item>Числа</item>
+        <item>Арифметика</item>
+        <item>Відсотки</item>
+        <item>Цілі вирази і ступені</item>
+        <item>Формули скороченого множення</item>
+        <item>Дробово-раціональні вирази</item>
+        <item>Ірраціональні вирази</item>
+        <item>Логарифми </item>
+        <item>Тригонометрія , формули</item>
+        <item>Раціональні вирази</item>
+        <item>Раціональні рівняння</item>
+        <item>Раціональні нерівності</item>
+        <item>Ірраціональні рівняння</item>
+        <item>Ірраціональні нерівності</item>
+        <item>Показникові рівняння</item>
+        <item>Показникові нерівності</item>
+        <item>Логарифмічні рівняння</item>
+        <item>Логарифмічні нерівності</item>
+        <item>Тригонометричні рівняння</item>
+        <item>Прогресії</item>
+        <item>Елементарні функції</item>
+        <item>Похідна функції</item>
+        <item>Первісна, інтеграл</item>
+        <item>Елементи комбінаторики</item>
+        <item>Початки теорії ймовірностей</item>
+        <item>Елементи статистики</item>
+	</string-array>
+    <string-array name="donatedialog">
+        <item>Яндекс.Гроші</item>
+        <item>WebMoney</item>
+        <item>Банківський рахунок</item>
+    </string-array>
+    <string-array name="drawer_names_theory">
+        <item>Головна</item>
+        <item>Теорія</item>
+        <item>Налаштування</item>
+    </string-array>
+</resources>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>РџСЂРѕС†РµРЅС‚С‹</title>
+    <style>
+        P {
+        font-style: normal;
+        text-indent: 15px;
+        }
+        BODY {
+        background-color: #EEEEEE
+        }
+        TABLE {
+        background-color: #FFFFFF;
+        border-radius:6px;
+        -webkit-border-radius:6px;
+        -moz-border-radius:5px;
+        -khtml-border-radius:10px;
+        box-shadow: 0px 0px 2px #777;
+        }
+        HR {
+        border: 1;
+        height: 1;
+        }
+        TABLE {
+        border: 0;
+        align-content: center;
+        width: 90%;
+        }
+        IMG {
+        vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<table align="center">
+    <td>
+        <div align="center"><b>Элементы комбинаторики</b></div>
+        <hr noshade/>
+        <p>Если из множества, содержащего m элементов, требуется выбрать какие-то k элементов, то возникает вопрос: сколькими способами это можно сделать и какие подмножества при этом получаются. Такие задачи называются комбинаторными, а соответствующий раздел математики – комбинаторикой. Все формулы для подсчета числа решений в комбинаторных задачах опираются на правило произведения: если элемент X можно выбрать k способами, а элемент Y можно выбрать n способами, то пару XY можно составить kn способами.</p>
+        <hr noshade/>
+        <div align="center"><b>Размещение с повторением</b></div>
+        <hr noshade/>
+        <p>Из множества, содержащего m элементов, нужно выбрать k элементов, причем выбранный элемент, после того, как его взяли, вновь возвращается в исходное множество (то есть элементы в выбранном множестве могут повторяться). Пользуясь правилом произведения, получим, что каждый из k элементов может быть выбран m способами. Таким образом, общее число комбинаций равно <img src="data:image/gif;base64,R0lGODlhGgARAIQAAP///wAAAPDw8MDAwNDQ0KCgoICAgFBQUGBgYBAQEHBwcLCwsCAgIDAwMEBAQODg4JCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAaABEAAAWZICCOZFk+hKmu46GwcJkscU0EAkA4aW1CDcCC0fOVXIXGYyUYFAGDAYnhCCxJhYDhEOgiBIZEN5F6BAoIREnhHQwDDEZhwD4ACgyAoFEgNcgjBgEvIwEOAGkiBESFhyNsUiICgzADWiRVJAsBNCyCkSKGJGxXK1U5IpaEIg15MAlBIxCcI2ZqLDerAFyod2cwWX0jcSQIVjAhADs=" alt="" />.</p>
+        <p><b>Пример:</b> Сколько различных четырехзначных чисел можно составить из цифр 2, 3, 5, 7?</p>
+        <p><b>Решение</b> Первой цифрой в числе может быть любая из четырех имеющихся. То же самое можно сказать и о последующих цифрах числа, поэтому общее число комбинаций: <img src="data:image/gif;base64,R0lGODlhUAARAIQAAP///wAAAMDAwNDQ0GBgYEBAQJCQkLCwsKCgoBAQEPDw8DAwMODg4CAgIICAgFBQUHBwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABQABEAAAX+ICCOZAkghamubOu+8JkEcW3fqjCUQ3HQuJZC4HAYGKaBYMkUKEwMRBFpIgRSo0GDIQAGVYOAeAwpFcZoAYlxHjtMBjEWoCjsut+VoIFAMhYBCCRnTUtPIgwJCQhPSiU/CFcjDg9FVg5UeSMKh4gBD4NeKgUJOysDCQQAkiJElgGYmi6sImcsYW8rCglYtCR4K1JFw8OCMGFlI4RLJg4BXEUHnQoLC4e+I8CjaNxzLmeZAG1knQ8BDWgJagAECZnYsjFxuSMIB0son8qwVAiKQwEMNAmwQEe8GpFUuUBHxRYJZwi6cBvj7QWEAhgzZkzGIiEMZ+scZoM1pBBBgzVWLmrUyFEFhAAtW7xcB5LEDwMq4B1UYcUYlE50GiTIom+EuXAjdO4kEWcBsSLrBKS6hwCdT3aflpiLmbTi0hLOJsJCBGhMgwMmXopJQO+r22woVZQkEQIAOw==" alt="" /></p>
+        <hr noshade/>
+        <div align="center"><b>Размещение без повторений</b></div>
+        <hr noshade/>
+        <p> Из множества, содержащего m различных элементов, надо выбрать упорядоченное подмножество из k элементов, то есть такое подмножество, в котором элементы располагаются в определенном порядке, и изменение порядка элементов изменяет подмножество. Кроме этого, элементы в выбранном подмножестве не повторяются. Требуется выяснить, сколько таких комбинаций существует. По правилу произведения получаем, что первый элемент можно выбрать m способами, второй элемент – (m-1) способом, и так далее, а элемент с номером k можно выбрать (m – k + 1) способами. Следовательно, число упорядоченных k-элементных подмножеств, взятых из множества, содержащего m элементов равно m(m-1)(m-2)…(m-k+1). Такие подмножества называются размещениями из m элементов по k элементов, а их общее число можно выразить формулой <img src="data:image/gif;base64,R0lGODlhgQAqAIQAAP///wAAANDQ0MDAwODg4HBwcDAwMEBAQJCQkCAgIPDw8BAQEGBgYICAgLCwsKCgoFBQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAACBACoAAAX+ICCOZGmeaKqubHsSA+HOdG3f+DkETe7/wOBq1xMaj0iAYiAgDQYlYnJKnT14kICWoWgstIumSFotm0uF7cCRCCQSj0EaMiKf71VDeNQIFEgBB3U8eIVTgSRpUCIKfoNFhgAEYpE3dgAHASQOAQ6PlQAQf6A2fYsiiCNpMmOElQuepDWZCoOjIgYJJQ2nhQIBtQIHlLIqCwYkCJ0jBAEMoAIxIwjIbMTFKL+3ocAjVw9OrlU7jiKiDwas2CrfJG8kDAHqAJdTBgapAAmZ8+v+NMoGvJMU4AGDZ/8SulCw4FkmEQ90KTAATqHFFAwWyFgF4KAIAQmuoXjQoKRJkxX+L45zZSpHJi0wYQpSmUeXCE4paepMxuPJAGWQdu5kGBMmHRwFDihdunRbiaJQo0qdSrWqVakiMjrw+SSfjaRMmToV6qMepgVjGHiB5QDfTLKkcp14CMALOAQLGij41euIMASyBhyI5eRAThEw1AU80fJAEQczG/UTwtBALVJpRNZdFi5oiwCLCoxiQ4WjrANoUaC+3Mrzil+XDcQqgBBJM9cjlhB7gsRridudASIjeBnOlD79rjTIsqXLlwB7gti5YnlExuAzPAKIiFievbeq1LBxA0dOgKNAWm6ufZMzPXEq4eOKvnmbb5eaOhY8Ic5swh2EjeCVIrmVA0QgEy2i0NcIBqDn3z879HUJXe0FmMMvDOSimQhKfUJThLuABgh4ppHwQFhhHSaCMtDtp9pbD/qzw2G02EKCXEFkoVcC9JWQAHp1LaiQgSIcwxNhzbDnwwI2/VJdCY3gptM9JGhDQhastQNEkt44Y8IVhMXoT2Zd5jRQVt4BoSWaNKbW2k7NAHmRmDTFI6Q/CvDIGlyMLKCRSllYyCcAwoy1zokqmhACADs=" alt="" />.</p>
+        <p><b>Пример:</b> Сколько различных четырехзначных чисел можно составить из цифр 1, 2, 3, 4, 5, 6, при условии, что цифры в числе не повторяются?</p>
+        <p><b>Решение</b> Общее число комбинаций равно числу размещений из 6 элементов по 4: <img src="data:image/gif;base64,R0lGODlh5AArAIQAAP///wAAANDQ0MDAwODg4HBwcDAwMEBAQJCQkCAgIPDw8BAQEGBgYICAgLCwsKCgoFBQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAADkACsAAAX+ICCOZGmeaKquLEA8TUOQxDC3eK6Lb3zztp1wSCwaj65DYBlokAZNpFRFUDKdIyh2yu16u4TF4qEACAbP6JcbHpfP6e16Tq+fDgtBSms/4vUofH2DhFwCaoGIhTmHciaCi5GSOA0BNTEOZXGTlJYDmJpZipykpRABCUwBC2iijqUmp6lMrJuwt5NKMiIPYqGQuCW6N70Lv6PByXRKJZUPrsrCAc0BzyLA0dldzLYA2Mrc0NfI2kICpwGt0ZXqAA4BCCQN7evpJO/xI/PlRgNj/GYCQCBx6gdAEYcGjih4cMiZHwesAWQgcMCAUwW6aaMIwSJGjV0GIMCUoseuEg7+YgBKFCAjAAXwIBzIV64ALUffotlcsgAnOSQLVKFaycPKEjkCZi05EKqEAQMBDoyb58CAy3IKLDZUkZVen4gzFCCISkMMGTPtDCxw8LLSVRJjByRIMG7Eu614AUIl8QdFI74LTChYwAAANwKW6uZdHC2BgRF/UbCTZ48EgwUzbN5IgAWCwhMwYogWLZHxkNCjSQ9CnbpB6RTn8ujzBIrgtDQ0vamZbGbBUwNNpQllItU0EaPDi9tBLlS55CUQmspSVUtEuKkkDNAV8a70AKLGwy/6xGDuymG8fFm/LQ7A2HkW34ufj0vB3BHXAThbX0LQ4OEC7VDAAQQWWOBbJQD+qOCCDDbo4IMoDGiggQiS8OBwKUg4IYEVpsBbfoJQ1FR3IlzmgEUokkXCA86ZoOGGHdKX4YYHDvLihDGeYFMrvHEHjwhxUabHN3isGJSMSH5h0EsJBIZQgAslFlBhI9wHgHZ3sCfAAXcl6aUUDSRQwIkPQCUHRx61ZFsBAzigRDxBmjBZUjWwt8aWufEQ2pJTfPdERCbUwCcXWcWAAJ+CflGVKgnkCcBOqziiAEU8vZKCAgcMaacXgwFHA3KWHkFRi5WwBZIhwyGYkxRdgUdCV5dqpUMDEMRA0UleaFaWG2h5MZaKgDW1KhJyPTADAVB595N4n9jaxKBHIOZIX3P+dAfsCNKeOoUCTSH2mW6hIgnFHJUYFNmdhAFw7QiXaTvHtcPKOO4aBpBKWwOZELpAcev6aCq4hBzyVrxfejHKdLR4NYQCT2nSrwiIEMyFEgZJXLAUUPy73knFBDfEZT88fOVnFiMhn7sXh1QZfpvu1w88KEJhgJ/CKFeyEQ8EQCXKKfe5Mn+nskgjga9BoWCLhtm87BQ578xzz8RWQ007+BzRVcwBzOxqAt/uQ4dNOXoN9bsIJmQbtEY8DFO4X1D02tiLPGUCmhep+cXDOf978w5jGdCaOnvDrYNNrkLa07tIG+YkdmtUAuAWgQuOg7cnwBpJ5JKHR5HCk9hnTOYUkg+GGS6naAz62FvmWAiLb5/ORQgAOw==" alt="" /></p>
+        <hr noshade/>
+        <div align="center"><b>Перестановки</b></div>
+        <hr noshade/>
+        <p>Пусть множество содержит m различных элементов. Рассмотрим все возможные варианты перестановок элементов этого множества. Получаемые при этом упорядоченные множества отличаются друг от друга только порядком входящих в них элементов. Такие упорядоченные множества называются перестановками. Число перестановок из m элементов равно: <img src="data:image/gif;base64,R0lGODlh/QASAIQAAP///wAAAPDw8MDAwNDQ0JCQkBAQEKCgoGBgYLCwsCAgIICAgHBwcODg4EBAQDAwMFBQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAD9ABIAAAX+ICAKQzkQYqqubOu+sEs4RWzfcDOwg3PgQBhpsSg0giwdcgnUHUWFgFRq+DGvTIHhIcB6U45AaxFIfHGE6ZSBDZ/fgEFgkUKUSwVDAAXvqxgBT344AwsPUi4OBl2DPAoHRw2HVkCFh2KNTHJ0IgoKKgdzmTYkfCIlKw2iLqUqqHAHDoqYSaujI4wiqhBIsbO3Ka0pr8OrAgEIrrbAIqELEFMIAgt6AQamZILNc9BS0tRUpm9uLggGzC4BDlfkjc7dyNPV18WcCQGUAGTiQAdE/wDzrQCEbEACBQE8HRgAiJeIB+sGejOIUCHDAA7htGNxzww6FWnYMNnowh/AgC/+CCKgmPDRxYybRAASNMBAxCVh1Ki5yeIBPRFkRIpQl2LZw5/6AggFQLQPyRVG0YXRFuQpi5w6pfBc4RObUhVN46wK8+8Ql49FeQLaMeKrWI9g1QZgC+DY0jNWUzzI+DEKp5G0BoUFsDaYW7GcdPpAW0/Fxo6n5q6ICSYwZKeBr27FMoPfilDJZDjw7DgzHMoiHpdpjPoMA1mwY99NQYYuU7lP5NhOanvwTBa+YscWuCJv6s1XotQoiQyGchjGU7wWDns2UMlp/wRqHGX3MATUDCRIcAi5TOrVEwXIJWfpg0+RBYZhfxjA+0HRFfD94l16fRf9lWbDdOhZB8B8xbj+Bx9tO0CTywrU/JDHAgKkESATW6gQBVyqhDbUXRmmsGEKHeJnmmF/+aONiqAsQFUMdhAHWCYhQrGaLs21UONV9kR0zItXhKSCgymEks8DD4BUH5HbyMiEDgMcUoJnocAVhm1XlnYhC1E8cNICWyZRgpQn9CFkCkwCYKQyLubYAnYMiHRQH2um4IkKdmgDiCl1drIgAHnCQYZiV51TGZbYpZaoDYNm9dcNjU5hHhN9AnBnHds1BkMajDzgEQMeMpYKRqIu0VqpqKYKQAFJAqAKI4+oiueisrYggAKL1KorWgiEdgB8qgBZqhYGCKsrNHDtquyyqM5gYK2xOMnstDEChAAAOw==" alt="" />.</p>
+        <p><b>Пример:</b> Сколько различных четырехзначных чисел можно составить из цифр 2, 3, 5. 7, если цифры в числе не повторяются?</p>
+        <p><b>Решение</b> Количество чисел равно числу перестановок из четырех элементов: <img src="data:image/gif;base64,R0lGODlh3wARAIQAAP///wAAAPDw8MDAwNDQ0JCQkBAQEKCgoGBgYLCwsCAgIICAgHBwcODg4EBAQDAwMFBQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAADfABEAAAX+ICAKQzkQYqqubOu659oMzWvfaoyzQ7Esid2K9CvUhK0ZcgkgLow3XaoQqFYNB6Z2hQg4VoPAYivsfpkGa1WBEhLUVQYZ4AjMbW+43GXmBhIlBWltd0JUXmBihS+HZ0sOBzUCVI44AwqRAA0PAVlLAwucdos8mDWbnS2NKwoKKgeKpDcJnYg5sbIptLCVZJxIAgIqDQEQTAcODmm5KsHDxSy7tiMBCLdjzC0EBtbTImHYzNvdvVsKD3fej6PZLerjAN67KgsBhDgHP/r7ni0CBmfUgXuRbx+/F/8ClltCAIKBe0ze7NFSB5/BgzskNgMowhuDAEcADOCIpA4cKwv+mzx4ICxer4EuTJ5Ul0LAypY0hdQr1pJMnZBMKt6QeTIli581b3asVEcfJ5btuBgIKRAXKQRTU+TcAQpBK4hIqISjyC6qCLEqsFKtBAcSC2TMwhQwEeaBFJik5NINYBciAQdg/bVi8TdwCljWXBS2IdQsAMS35prgGwNviwPLXjBIxrnzxFszp1lesbmz5xZhQveiUkBngAErWBOsZkP2i8aaTZ+2ARn0zC9UYCt2QMtGad0OPtekW4LyvQXCWxzXrXwE87pSUkTH8XH7N80BqvMYWtbFdNPiU3ysToK5cwAQAvRcQUDBjPLttjp2yQRoEwUGLNFFP3fgxsyAQkxzYwA6/gAmEn7ZVDVWfka5sIACDAByACcT1sbXRd7dMMMAnJRgGBlUPACiC7YQkxgLC0DwQxcL+MeMhPvp50ICoqzRGhI7ndShDUGixEyRagzJnyX60GjjflAW0t6JUVYJZRhWZqnlllzOgWWXYIYpZi4hAAA7" alt="" />.</p>
+        <hr noshade/>
+        <div align="center"><b>Сочетания</b></div>
+        <hr noshade/>
+        <p>Пусть из множества, содержащего m различных элементов, требуется выбрать подмножество, содержащее k различных элементов. Получаемые при этом подмножества не упорядочены. Такие неупорядоченные подмножества называются сочетаниями. Число сочетаний из m элементов по k элементов вычисляется по формуле: <img src="data:image/gif;base64,R0lGODlhkQAqAIQAAP///wAAAPDw8LCwsICAgJCQkNDQ0GBgYCAgIMDAwBAQEODg4KCgoFBQUEBAQHBwcDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAACRACoAAAX+ICCOZGmeaKqubOsCS7K8dG3feE4nAaH/wKBQx/MNj8hkS5AwkBKJUlFJrR4ZvUZgexAQFFuFUzS1ms+2BzcxQAQQCEZC3RiV0fg8CiIeEQIPJAEOdj16h4gAgyRqUSICgIVGiSYLY5RAdwAOASQDAQOSmCYNgaM/f44iiyNqM2SGpyMKobI5nAKFpiIQCCUEqqcGAbkGDpe2LgoQJAWgIwsBB7ICAwQEBZcFzG3IySzDuwBauSJYDE+xaAIHW+5vUaUMEK/fLuckcCTt9QCaVgYUKCDwykA7dAg49bPH8IYAgd4AGDAQjcGBaQ0z2mgXrAQDXwIgoNNIkkW0Oin+LoowgCCiCQbXYsocWRKRs1pDOL17R6gmIn4+g97qJLRoDU5JHjhYypSpOEE7o0qdSrWq1atYr3JEorRp06dGq2DpSYKBqQQHvtAaAIFVWI2cREIh4KaAiC/oCgwUMKyjEGN2KSVwgNOOA5rQZEghjCJGvy/vRI5wYGRAT0gLgzyEUC6RGpd/CvtTJ+Izin8SoZgI4OiBqTZKXI1yoCAF7c6jJ4mgnQI1imHlINR6gPFINN0lmCBTfcRtJdL/nEshrWKbiGjl4iT5sxALAS1cvIAJ0CfIHSycRxyoLao9APTlfJ9Q+d4XjACZgUAg22pNmzdxzBEASkCkcpc0JXz3gpMmBgLwR3G5ZUQdAHxc8oc40g0lwkEnqKMJUgBwmA5ytvAgmiL8NTICJGDhMEhICvjFC4GavMiHX/KNwkNHHxIlgoJBDHNALy7tRtYdQhJ5Qo6Y7PgLa4KkiN8JDHjlFWIiOENeAFiSsJR7WoLRZYQM8YAlLrqQ0IsQWhAgAALlmYAAgQ6q0uabcZIAjIRPLdPMM9chGIQC9g2TXnITzlJoAIcGBQEzI4RDAjkj4ANENMVhAaE5gJKJaaWCumePaZwipo96UwJh6YZclsBbe6uG2Kqo35xUEpNvmbBVRnjilusKDymQnyxanPirCsa0eEqVY/4QAgA7" alt="" />.</p>
+        <p><b>Пример:</b> В группе 10 студентов. Сколькими способами можно выбрать из этой группы троих студентов для участия в конференции?</p>
+        <p><b>Решение</b> Число способов равно числу сочетаний из 10 элементов по 3 элемента: <img src="data:image/gif;base64,R0lGODlhmwArAIQAAP///wAAAPDw8LCwsICAgJCQkNDQ0GBgYCAgIMDAwBAQEODg4KCgoFBQUEBAQHBwcDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAACbACsAAAX+ICCOZGmeaKqubEsuSToQhGHCi6vvfO//LEfgZEAEjgGHgJQIEIDQqHTaShAgxxNEMQAICIEH00ktm889hsOhGJYM5BF7/ETb73iS0ASOjfojTXV5hIVSeyUNboEBBYyDhpGSLoh6iyKCj5ObnCiVcpcAmZhxnaacnyKpo6Klp6+GqQAHAUsjAwEMmrAiBEYBDba8U7IFAX69ATZ/yLAEXQIQB8NUsnDTIwgIvAIzBAXLJQQN1FAwCVgJCeEAig8JA0KOu4YCtEhHCMgJBcHlQGDwJSFhD4kCSK0Q4jGg4GAOAAZo6VIFgYCwf3YEqIMloCE7EQY+NsCGsWQZWs3+VBBwYLKllAXAVjxYEo0kCwY0cuqc6JKasS4q2DhAoESHEIFIWPakRuuhChgfl0ptIWuq1UOhzDxYw7WrGBRIw4odS7as2bNoyaJkkeCrCAGKFLg1sbWr16uvGAwsweCrASFKRTQItgDBPLxXhUBgoM5XIxIrSSgTUSAwYqsE2iBZLC5wE0Z3/h4eAUMGjahR+NEAGsgBT9IJnGIqsPpGbBMGNp6ITAo0mo4QLqrKCvHXkaJTNCNBwA4Ma1KQlOdjx8oF71a+zzwIINsKFuJboIGZC8V1DgHGLANgc7G6eS/p6fC4DvMhAwhoYCJUwyYrHEhz2IFFCfrJl8KA9Fj+ZxkE8zhA3hRgyGYJH8dAViEaCOBXwgEKGIhChh6yhU8dDA0VHBoQqDdhIqE0MdoUBjSgQFS4sFYdCTHOGCIQ69zhSgmyrPIjFAH5c0IpNwJQpHBJ/tPEc0BmJaRCPBJwgDaoQUAOdCZYcSVzO2LUREorlsnlGQJoc8IaCZaQ5jZtinnhmlnRchEur4nAn11c5YkCIEB6NqSF+wxaThN+gmKCMc2AgZoU25GJwJa9kElCpJBZ+k8YKVgTgE1qvuQmAh26aSgAEqZZKl4QaPiCOun0OII78MgDIQIPDJDAfUPqZWMpvuS6KxaQNPnPdh8FhI9lBR1xEBUDfJfPi6o2rJrQLdIGYFgJxpYDE6U7aKQpFOI+2u0I5V5GwlpTqSqcui50pICELSkCJbw6/PVgSWokGkUIADs=" alt="" />.</p>
+    </td>
+</table>
+</body>

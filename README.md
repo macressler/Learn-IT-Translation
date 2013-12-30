@@ -10,4 +10,4 @@ English
 
 Thanks/Благодарности:
 --------------
-Украинский/Ukrainian - Tanya Panasyk
+Ukrainian/Украинский - Tanya Panasyk
