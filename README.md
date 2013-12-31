@@ -3,7 +3,7 @@ Learn-IT-Translation
 English
 --------------
 
-If you want to help us to translate the programm into any other language then you just have to save any localization that is available in that moment. After this you can start to translate all the files. When you finish you can send it to my e-mail: sing it with your full name or just a nickname. The translation will be added to the programm, on GitHub, and we'll add your name into the list of thanks and also it will be added into the software repository.
+If you want to help us to translate the programm into any other language then you just have to save any localization that is available in that moment. After this you can start to translate all the files. When you finish you can send it to my e-mail: maximus45614@gmail.com with your full name or just a nickname. The translation will be added to the programm, on GitHub, and we'll add your name into the list of thanks and also it will be added into the software repository.
 
 Русский
 --------------
