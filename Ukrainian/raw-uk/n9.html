@@ -1,52 +1,63 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Проценты</title>
-    <style>
-        P {
-        font-style: normal;
-        text-indent: 15px;
-        }
-        BODY {
-        background-color: #EEEEEE
-        }
-        TABLE {
-        background-color: #FFFFFF;
-        border-radius:6px;
-        -webkit-border-radius:6px;
-        -moz-border-radius:5px;
-        -khtml-border-radius:10px;
-        box-shadow: 0px 0px 2px #777;
-        }
-        HR {
-        border: 1;
-        height: 1;
-        }
-        TABLE {
-        border: 0;
-        align-content: center;
-        width: 90%;
-        }
-        IMG {
-        vertical-align: middle;
-        }
-    </style>
+<title>Раціональні вирази</title>
+<style>
+    @font-face {
+    font-family: 'Roboto_Light'
+    src: url('file:///android_asset/Roboto_Light.ttf');
+    src: local('Roboto_Light'), local('Roboto'), url('file:///android_asset/Roboto_Light.ttf') format('truetype');
+    }
+
+    P {
+    font-style: normal;
+    text-indent: 5px;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+	
+	UL {
+	font-style: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+	}
+
+    H3 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    font-weight: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+
+    body{
+    background-color: #D5D5D5;
+    }
+
+    .block {
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px #AAA;
+    margin-top: -8px;
+    padding: 15px 15px 15px 15px;
+    word-wrap: break-word;
+    border-radius: 3px;
+    line-height: 27px;
+    }
+</style>
 </head>
 <body>
-<table align="center">
-    <td>
-        <div align="center"><b>Раціональні вирази</b></div>
-        <hr noshade/>
+<div class="block"><h3>Раціональні вирази</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <p>Цілі і дробові вирази називаються раціональними.</p>
         <p> Цілий вираз - це вираз, який має в своєму знаменнику цілі числа, наприклад: <img src="data:image/gif;base64,R0lGODlhKQARAIQAAP///wAAAODg4KCgoICAgEBAQBAQEPDw8NDQ0MDAwLCwsFBQUCAgIJCQkGBgYHBwcDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAApABEAAAX+ICCOZGmKDhMYxOm+MIoAiTHEpTAQhICbhdYoUVCcBIWAMiD8iQ420iMwyxlsBwAi4Rw5IKWC4SSuvg6JhNkLyZICC4Ag4dMyYQjDcmVEtUsJTA5LDwAEAXM8Cm4jDQsNaYdjAF+MI4cMDwkKeggLASpLBlwvSSJ7SiMFDHUAA0xJPSIDV5Y0OwQMYDABDiSBBKYkhzcABw56AQUQAYUvCAENv9HCQ3cCVwN1r30uDVTDVIekIgrRAFPklAG2JQuTIwwMdnEjnz7VcroxBgXhfYMWpPnkbJCDTch6wRAAisCmT75GTFHCYoSAUL2IwXj1iaK0EmjUDUnQLkbIEiEBAAA7" alt="" />, <img src="data:image/gif;base64,R0lGODlhJAAPAIQAAP///wAAAMDAwNDQ0GBgYEBAQJCQkLCwsKCgoBAQEPDw8DAwMODg4HBwcFBQUICAgCAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAkAA8AAAWfICCOgDCQaEoKxaGSRFC8tNgEJ20Eck0XidohgOj5VAEHgCFgoAYJAsB4XAUeMV5jpEjMpt/q6BGANASHBA6gWCwUIqoYUIA4RcUHgJC4g+cjAVIjAleFBgKJhQsmKQMFOSQDAQZWiDyYmWEjO5UoO5EAZAMKiooBjKGEKg5BJBAQL3JVXiRkLkibRwxlD2gOgjSzPkXAPAmegFWlAighADs=" alt="" />.</p>
         <p>Якщо у виразі є ділення на змінну або на інший вираз, який містить змінну, то такий вираз не є цілим. Такий вираз називається дробовим. Дробовий вираз - це математичний вираз, який окім дій додавання, віднімання і множення, здійснених з числами та змінними, а також ділення на число відмінне від нуля, містить також ділення на вираз зі змінними.</p>
-        Приклади дробових виразів: <img src="data:image/gif;base64,R0lGODlhDQAnAIQAAP///wAAAPDw8KCgoICAgJCQkODg4BAQEMDAwDAwMLCwsFBQUEBAQCAgIHBwcGBgYNDQ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAANACcAAAWSICACwkAUxqgOR+AGhAogQZIaSaCoSyCMgkNCFWDIej9RUUYIIEa5pKj5FCkCjQEC4WhVRawXo5eSbVOLg0wmCDzWvEN5RFAgCo3AYM0Qf1UGW1JwhIWGh4iJiC+MjYqPkJGSiUFGIxBCcwN6IpgJgwANDQCeoDNuQqYifZ+EmG6uQmRrpQawKqVTTpepQAeWACEAOw==" alt="" />, <img src="data:image/gif;base64,R0lGODlhLAApAIQAAP///wAAAODg4MDAwEBAQICAgDAwMKCgoBAQENDQ0PDw8JCQkHBwcCAgIFBQUGBgYLCwsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAsACkAAAX+ICCOZGmeaNEEgaOgcCwXEKAYzykMpzIUhYXgNCDUYAXHiRAwJVjQAMPECCRQg4WL9DOwTIPGYSjwHkoEBIxgKLxGB0K6WVK8RYJWSb8bmhw5JkwyIgEEXAEFD1BTJQWHgnQxT40iBQENDAMQCFYADC83gWiSawF+IgQNqAeJAGmqBHckgzELriQBowADuDtXKLUorbsATwuIyISvpSXEJrfAlp7LwiVVlSQOaiQNDcupzSKLZycIkNNHMTsDXgMD0rdtQPQ8eQ0Fmw66y5dRhiP8/XPVah8LBMrAKUThg8fChxAjSpxIsaLFixgzRhzIsaPHj1E0ihxJsqTJkyg5U6pUcI5EAgQGUJFsVe6lgVklvRmDibNkrwc8VYa7KXQnP6E298k0aVNBnmIkm05zWFKqCJboFoYAADs=" alt="" />.
+        <p>Приклади дробових виразів: <img src="data:image/gif;base64,R0lGODlhDQAnAIQAAP///wAAAPDw8KCgoICAgJCQkODg4BAQEMDAwDAwMLCwsFBQUEBAQCAgIHBwcGBgYNDQ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAANACcAAAWSICACwkAUxqgOR+AGhAogQZIaSaCoSyCMgkNCFWDIej9RUUYIIEa5pKj5FCkCjQEC4WhVRawXo5eSbVOLg0wmCDzWvEN5RFAgCo3AYM0Qf1UGW1JwhIWGh4iJiC+MjYqPkJGSiUFGIxBCcwN6IpgJgwANDQCeoDNuQqYifZ+EmG6uQmRrpQawKqVTTpepQAeWACEAOw==" alt="" />, <img src="data:image/gif;base64,R0lGODlhLAApAIQAAP///wAAAODg4MDAwEBAQICAgDAwMKCgoBAQENDQ0PDw8JCQkHBwcCAgIFBQUGBgYLCwsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAsACkAAAX+ICCOZGmeaNEEgaOgcCwXEKAYzykMpzIUhYXgNCDUYAXHiRAwJVjQAMPECCRQg4WL9DOwTIPGYSjwHkoEBIxgKLxGB0K6WVK8RYJWSb8bmhw5JkwyIgEEXAEFD1BTJQWHgnQxT40iBQENDAMQCFYADC83gWiSawF+IgQNqAeJAGmqBHckgzELriQBowADuDtXKLUorbsATwuIyISvpSXEJrfAlp7LwiVVlSQOaiQNDcupzSKLZycIkNNHMTsDXgMD0rdtQPQ8eQ0Fmw66y5dRhiP8/XPVah8LBMrAKUThg8fChxAjSpxIsaLFixgzRhzIsaPHj1E0ihxJsqTJkyg5U6pUcI5EAgQGUJFsVe6lgVklvRmDibNkrwc8VYa7KXQnP6E298k0aVNBnmIkm05zWFKqCJboFoYAADs=" alt="" />.</p>
         <p>Дробові та цілі вирази складають дві множини математичних виразів. Якщо ці множини об`єднати, то отримаємо нову множину, яка називається раціональними виразами. Тобто раціональні вирази - це всі цілі і дробові вирази. Нам відомо, що цілі вирази мають зміст при будь-яких значеннях змінних, що в нього входять. Це слідує з того, що для знаходження значення цілого виразу необхідно виконати дії, що є завжди можливими: додавання, віднімання, множення, ділення на число відмінне від нуля. Дробові вирази , на відмінну від цілих, можуть і не мати змісту. Оскільки операція  ділення на змінну або вираз, що містить  змінні, і цей вираз може перетворитись на нуль, а ділити на нуль не можна. Значення змінних, при яких дробовий вираз буде мати зміст, називається допустимими значеннями змінних.</p>
-        <hr noshade/>
-        <div align="center"><b>Основна властивість дробу</b></div>
-        <hr noshade/>
+</div>
+<br></br>
+
+<div class="block"><h3>Основна властивість дробу</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <p>Якщо чисельник і знаменник раціонального дробу помножити на один и той самий ненульовий многочлен, то вийде дріб рівний даному. Наприклад: <img src="data:image/gif;base64,R0lGODlhlwArAIQAAP///wAAAJCQkLCwsDAwMCAgIPDw8MDAwICAgEBAQODg4GBgYBAQEFBQUKCgoNDQ0HBwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAACXACsAAAX+ICCOZGmeKGAcCCIoaSyXa/uiTyLM/Fy7MNIh4egZZ4+Acgk5OpNLZZPGIBicWAA0Oh0hAoOsGHAoOGAKQqA4jpXPgPS6BAkE27w3Ws0eJRhXeEYGgSIKAQ2CKIQkh4kjhwiKPIyQiCWRJQJgJQQFhZMAAQmhM6MkX3cAm2EknqCTpyULDCUHAZJeAQelIkldvSa/rqRCuKi7wcMlA5wksnEBC8EACXbUJ9aqxyXQh9PB2ifcIwS1In+wipu52CTsxq2u59WAwfAnBI8jC9eswQ6kuSsRENyIW7xm+XNWqmCKBMV0HVDAYJ8JBxAzaiSSwuHAER6NJUQ2sWLHjRv++1wU+DCiiFsI0vWqA2wgzRO3VL7EJbPUzRgFLKoIUCDAjlL9dLpLmiJAzaFFj4ZiGsMAuRFFXa4LQKCFVwQjS23q+hVsOQInsvYaW9YsiYDyyjFQpehLlCXtStm9S67OAxPm6AraezdvvZVSPyqO4Yig0cU4r6pgoBWyZRL9RhqgfJmEgQL2SDQI8LezaRGb54oYXdr06LhadJyeHbtJjsSXMSqlHcNBW6+7eQu/bI2vksrDkytfjs248+fQoyspJb269evY7zInAQFlxqfbw4fq7j0BePHo06u//OCA+/cH1Cn6cePE7cXt4bsPNCT4x+J3hTXJFkyYsJkViwH+GMVIX8DWhgIICGaCNfrFF4wecfBBxzUPRjgDhfqB0pMgCH0YwGKVGHKJJYZlUaIM1siQiWecjfBAFRIelAyMJ54GDQCp0OjSjQTkSMaOMcQoAy0rsUGkfCKZ+B57ThHTpC9VQLmTgNns4l4KzThYQAFaZDnDi0neBYGWpYgzgmQijFkmgm4g+ZCa8sF5Cy10mgChV/0s8BUKDgzgHkYrDoTPTg4eyad8f7YQ6KAnFHqoNUKJoE+XfZpwC3Q9FGWkIiFtiYI1nRoDKg+iTljZjSzlYWcPX3AZSqmmCsNArDKgaUStrpZA5GijRulEHbYq8pMtcwhbBbGyJhsDsiaKBEXCk9/04OsJCoDyGT29UDVOTdjymsK2fnoLmoHkPCkCsGfO6ikDCxjqQFH+tcFWWSMRgJaNZgIpr6cDC0Gvvfiu1Iq7qNUoQw6toSDHEgU0Wpdz7fiFZZ+bISdsAhFzqwbFjf5xmnshm9bYZSijANN6H2Wm3LdswixIasVC9prNH+VwXm4ckRACADs=" alt="" />.</p>
-    </td>
+</div>
+<br></br>    
+	</td>
 </table>
 </body>

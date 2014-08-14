@@ -1,42 +1,50 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Проценты</title>
-    <style>
-        P {
-        font-style: normal;
-        text-indent: 15px;
-        }
-        BODY {
-        background-color: #EEEEEE
-        }
-        TABLE {
-        background-color: #FFFFFF;
-        border-radius:6px;
-        -webkit-border-radius:6px;
-        -moz-border-radius:5px;
-        -khtml-border-radius:10px;
-        }
-        HR {
-        border: 1;
-        height: 1;
-        }
-        TABLE {
-        border: 0;
-        align-content: center;
-        width: 90%;
-        }
-        IMG {
-        vertical-align: middle;
-        }
-    </style>
+<title>Відсотки</title>
+<style>
+    @font-face {
+    font-family: 'Roboto_Light'
+    src: url('file:///android_asset/Roboto_Light.ttf');
+    src: local('Roboto_Light'), local('Roboto'), url('file:///android_asset/Roboto_Light.ttf') format('truetype');
+    }
+
+    P {
+    font-style: normal;
+    text-indent: 5px;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+	
+	UL {
+	font-style: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+	}
+
+    H3 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    font-weight: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+
+    body{
+    background-color: #D5D5D5;
+    }
+
+    .block {
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px #AAA;
+    margin-top: -8px;
+    padding: 15px 15px 15px 15px;
+    word-wrap: break-word;
+    border-radius: 3px;
+    line-height: 27px;
+    }
+</style>
 </head>
 <body>
-	<table align="center">
-		<td>
-			<div align="center"><b>Відсоток</b></div>
-            <hr noshade/>
+<div class="block"><h3>Відсоток</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
 			<p><b>Відсоток</b> - одна сота частки. Позначається знаком «%». Використовується для позначення частки чого-небудь по відношенню до цілого. Наприклад, 17 % від 500кг означає 17 частин по 5кг кожна, тобто 85кг. Справедливо також твердження, що 200 % від 500кг є 1000кг, оскільки по відношенню до половини тонни, тонна відповідає 2×100 %.</p>
 			<p>Співвідношення відсотків і десяткових дробів: 
 			<ul>
@@ -45,20 +53,22 @@
 			<li>45,1 % = 0,451</li>
 			<li>100 % = 1</li>
 			</ul></p>
-
-			<hr noshade/>
-			<div align="center"><b>Прості відсотки</b></div>
-			<hr noshade/>
+</div>
+<br></br>
+<div class="block"><h3>Прості відсотки</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
 			<p>Якщо банк виплачує клієнтові щомісячно <img src="data:image/gif;base64,R0lGODlhCgAKAOMAAP///wAAADQ0NCQkJEZGRlxcXHR0dJKSktbW1hgYGLCwsA4ODggICAAAAAAAAAAAACH5BAEAAAAALAAAAAAKAAoAAAQwEAAxSCnDyHNKQAASbEAySMonAYEGeKu4LskKA4cq0QQxgKvAYUVMEVcHRkBwBEQAADs="> відсотків внесеної суми <img src="data:image/gif;base64,R0lGODlhEgANAOMAAP///wAAAEZGRjQ0NNbW1hgYGAQEBAgICFxcXHR0dCQkJLCwsJKSkg4ODgAAAAAAACH5BAEAAAAALAAAAAASAA0AAARTEMgpxaA4k1Cyl4VxfBmSFAFJEZ2SqiABCC+QDIiCJYKEBAuJQZLQTQyKJIphGwE2E0VQskHMGtQXDxO4CLDPAAPVkAEYLsMg4YTCAEObEXbLASIAOw==">, то на рахунку клієнта через <img src="data:image/gif;base64,R0lGODlhCgAHAOMAAP///wAAADQ0NBgYGFxcXHR0dEZGRg4ODrCwsJKSkiQkJNbW1ggICAAAAAAAAAAAACH5BAEAAAAALAAAAAAKAAcAAAQoEIhBCjEHgIJMQFqQAOOgaECwoKJGBCgCa4xAAgbDLhwwGCgGgQCIAAA7"> місяців буде сума:</p>
 			<p><img src="data:image/gif;base64,R0lGODlhhQAfAOMAAP///wAAAEZGRjQ0NNbW1hgYGAQEBAgICFxcXHR0dCQkJLCwsJKSkg4ODnt7ewAAACH5BAEAAAAALAAAAACFAB8AAAT+EMhJq7046827H4qAIEoCDAWSIELjvXAszzLDIAEBEEGyCIGFJMCgGY/IpKVYUEgWAQegOckpr9gspyfBDYsAr3ZMxvImjQIAOjkMAOCynGObhwMShlVwqBJ8FwJ2dgtOdmkCAgo6U4ISByMYC2+DZQ2MeX1aREgKQhgClJUToRwJhgAJBQ14HKgcbEgELhc8aqMSthwNcV2tG7R0BwGiRgeYFAUGmrjKzBm/E2LAuBMhFioF0YPZ2xYLBtjeF8G4CLcTBGoK42XqAOwbCeW+HfSVDM9TOkAyDQcAAwZEd6EAv18JBpCgcE6cvWp5wk1I4AjHJzsUfX2SeEoawXr+5AQGEPhxSICTKFOqXImyAgOJEgwomKmtlxyZNDkl0HRGwjyHuyDCYeYpXQAEO/isKJFBoNMD9yQUzXUUQAuqE8ABpQaxYSpHVd6Y4LTwSkYKxKzS6jlkq4aodgYIYKDtUh52Bt5onYI0Cd0AduHgHbATa5uLDBQYCFCgGLkX+SoMkLtowmRFyA53UNS2rx2OrxA4flHygipWFDgPlaA6cgUC+jIUAHNAQOYyCctSiD1mGgBOQ4QA/31RAmGhVxiM1jINCqa8zifkpVAIORYENpkjjGagQALuBF9ZH+9hmm8DDc7DJc9+g3nu6eG3n/9i2ncK3e9LL02/P8Nf0Q0tMUCAvy3n34G+DceJgtkdiGA0IPikSYSp8OYgfYkt1phlchnEoQAeXijiGBEAADs="></p>
 			<p>Це формула простих відсотків.</p>
-
-			<hr noshade/>
-			<div align="center"><b>Складні відсотки</b></div>
-			<hr noshade/>
+</div>
+<br></br>
+<div class="block"><h3>Складні відсотки</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
 			<p>Якщо клієнт поклав у банк суму <img src="data:image/gif;base64,R0lGODlhEgANAOMAAP///wAAAEZGRjQ0NNbW1hgYGAQEBAgICFxcXHR0dCQkJLCwsJKSkg4ODgAAAAAAACH5BAEAAAAALAAAAAASAA0AAARTEMgpxaA4k1Cyl4VxfBmSFAFJEZ2SqiABCC+QDIiCJYKEBAuJQZLQTQyKJIphGwE2E0VQskHMGtQXDxO4CLDPAAPVkAEYLsMg4YTCAEObEXbLASIAOw=="> під <img src="data:image/gif;base64,R0lGODlhCgAKAOMAAP///wAAADQ0NCQkJEZGRlxcXHR0dJKSktbW1hgYGLCwsA4ODggICAAAAAAAAAAAACH5BAEAAAAALAAAAAAKAAoAAAQwEAAxSCnDyHNKQAASbEAySMonAYEGeKu4LskKA4cq0QQxgKvAYUVMEVcHRkBwBEQAADs="> відсотків, то через <img src="data:image/gif;base64,R0lGODlhCgAHAOMAAP///wAAADQ0NBgYGFxcXHR0dEZGRg4ODrCwsJKSkiQkJNbW1ggICAAAAAAAAAAAACH5BAEAAAAALAAAAAAKAAcAAAQoEIhBCjEHgIJMQFqQAOOgaECwoKJGBCgCa4xAAgbDLhwwGCgGgQCIAAA7"> років накопичений капітал складе:</p>
 			<p><img src="data:image/gif;base64,R0lGODlhjgAgAOMAAP///wAAAEZGRjQ0NNbW1hgYGAQEBAgICFxcXHR0dCQkJLCwsJKSkg4ODgAAAAAAACH5BAEAAAAALAAAAACOACAAAAT+EMhJq7046827/x4hHAmiJGCqrmw7KAJioiAaMIDZ7nzPMgxEgAAgBFQLg6SA8DmfUAquoJAshilBFXBsRr9gVoAmVBVwgIOAGG67NcZJo/Cut4B2ShnAwGoEeYFWW4JzAlpsGgsDgnkNiXwHdTcpCgsrAoyNmRsJhAkFDUcdhClXKgQNqAF0gkatGQ1oE3scqioMBwGaIAeQHQUGkoLBwxmjesgbt4EwIAigynXQBdIVSRa1y40IsBwEdArWbeAA4hoJzLTjF+p2uR8FRALssQf3+PjeF/IA9BMJBuiQ0C1bvQru6jBQ0iEBoBwBLtVxSDCiBIaeCO6DaA9fgHz+GwOIHEmypEmSFRZ6MKCgZbVZbli6pJRgWBwA6Qx6SPgGHgdLE4w0EUFiBoZ8SA/wlABUglB/t25iq6BNw9I2BTs9nLALJxccA31QpNBVQFRk1qrGajRg6wUG1R5JYCDOAKOpTHzADSCXT90BNZ0iOyDRrwFWvNZ28DlhQFsFiRwjukCYhxYJXexgJIQgcYqNFkCJonA5koTSjIMaa3FGgppfYQKGdT1NGSXMl25zKSwBcCOFnr/UupLILvEJdiksKPUbK0zhyBIoM1BAOgXqFJg3396jljYDDb5f5U6+hffp4dGXX++klnXk1aeDZk//w3A/XAYcxxy8vn8O2ugmRomAz/1nYAbavCBBYAAoiNNqB0aYkgKHFcCLZP301laGEna4XQQAOw=="></p>
 			<p>Це формула складних відсотків.</p>
+</div>
+<br></br>			
         </td>
     </table>
 </body>

@@ -1,52 +1,66 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Проценты</title>
-    <style>
-        P {
-        font-style: normal;
-        text-indent: 15px;
-        }
-        BODY {
-        background-color: #EEEEEE
-        }
-        TABLE {
-        background-color: #FFFFFF;
-        border-radius:6px;
-        -webkit-border-radius:6px;
-        -moz-border-radius:5px;
-        -khtml-border-radius:10px;
-        box-shadow: 0px 0px 2px #777;
-        }
-        HR {
-        border: 1;
-        height: 1;
-        }
-        TABLE {
-        border: 0;
-        align-content: center;
-        width: 90%;
-        }
-        IMG {
-        vertical-align: middle;
-        }
-    </style>
+<title>Рациональные неравенства</title>
+<style>
+    @font-face {
+    font-family: 'Roboto_Light'
+    src: url('file:///android_asset/Roboto_Light.ttf');
+    src: local('Roboto_Light'), local('Roboto'), url('file:///android_asset/Roboto_Light.ttf') format('truetype');
+    }
+
+    P {
+    font-style: normal;
+    text-indent: 10px;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+	
+	UL {
+	font-style: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+	}
+	
+	OL {
+	font-style: normal;
+	font-family: 'Roboto_Light', Arial, sans-serif;
+	}
+
+    H3 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    font-weight: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+
+    body{
+    background-color: #D5D5D5;
+    }
+
+    .block {
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px #AAA;
+    margin-top: -8px;
+    padding: 15px 15px 15px 15px;
+    word-wrap: break-word;
+    border-radius: 3px;
+    line-height: 27px;
+    }
+</style>
 </head>
 <body>
-<table align="center">
-    <td>
-        <div align="center"><b>Рациональные неравенства</b></div>
-        <hr noshade/>
+<div class="block"><h3>Рациональные неравенства</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <p>Рациональное неравенство с одной переменной х — это неравенство вида <img src="data:image/gif;base64,R0lGODlhZgASAIQAAP///wAAAMDAwEBAQLCwsHBwcNDQ0BAQEFBQUPDw8ICAgGBgYDAwMKCgoJCQkCAgIODg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABmABIAAAX+ICAKAyGeKGAMTuqOQ/POdF2vrQ3LaREYtMSBkdCJFAGTcbkUEplI5WlwqPkgTAC1mO2+rt0tKoAAJARAFCSg6K7bXqNBgFWzve+TgO0LBAZcAEh1IkIDKAZDhAtVMwQKgUwCD34BDwcLRwGEZgeHJ4kMnIwnSJgEAgwBPAAMnygNqyKhkQRJNAIIkEyxDA0CDQMBOa4usTy0KbZKwmkAe3AAdy4PDypDkSLTuAgFnDMQ2CexAtrRKNXXTy7TfyjLI7cue4zrKQxlOgYLC98pC5tQ+IgnBQU9cS/wqdgGwAeXPeVeCLOXYsArHRD4+RMx5N4niDMmZkNhEYCDABHjRTCwFi8logMBMoW8aETBA2egAhRAkUBnyxeJYtYoiSBAoDUyn8lKEaroRgAP8hkJxioFNIPy9lSdNcQpjagAOo5bqm3nSyJIX/Q8NyOBgxg16KHwWpYptrRq2awxKwIgJwYMznJB4lJErIIuEihAgHgGTAcCHFBiqTIwKISEXxw+ho6yCB9pkhXy5IJKkMWFazSAacmW1IY/uNozJLGRkTWvjVydISC1jjNAdovA7UW4EYC+214aGWfGycLIsyRYLv3AgacuijZuPqNoYuvYs8vLsoKvarjcjSBIimiA+fOsQgAAOw==" alt="" />, где <img src="data:image/gif;base64,R0lGODlhJgASAIQAAP///wAAAMDAwEBAQLCwsHBwcNDQ0BAQEFBQUPDw8ICAgGBgYDAwMKCgoJCQkCAgIODg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAmABIAAAXhICAKAyGeKGAMTuqOQ+MWgfGKycEkt6sEJtTg0APQIEXXkHcKIAAJgQ0FCSiSrup1ZKUFAgMm4Ic85QYog64MWBBFv8OCIGAEZCIGOtW4i9Q7KARAIgM1JwJWTVspDw8qOmKLImCChACJQSmJboEuDE8Giic0TIkCN4aeSmgOAagnDI9csClqAQs9A2gIAWJVuVx4aTq9bI1POih9wwABBbaRwC8JVlXQJwsBxwwMxJ4/tSd9BMwojik0U4BiZ0pvWABVT/GIo/Xa4kkJDweSWDkOHCvSS1M9FQOwJWkQ40QIADs=" alt="" /> и <img src="data:image/gif;base64,R0lGODlhJgASAIQAAP///wAAANDQ0MDAwODg4CAgIBAQEGBgYKCgoDAwMEBAQJCQkPDw8HBwcICAgLCwsFBQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAmABIAAAXoICCOZCkoS6mOg4KssMgYCROrTvDcahMQPJXCYDMNgCRCwBFUKZmsQmBaMBxEOaTMoCAJaFrAwTBCBBKIAUIRSAES3ZL5BfjWSg8dgEArAswDIksrBQV1fSuDBz8kPiIDeiqQY3crCRAANCVwjwGBK2yVoAoCAQ0kDKadnyYGAVcxCgqQUJ07AJB0XjQQjDAFEJMkvVqquzVKsCqpTK4LAwtShiMJCcdFOawkZjsIrgEFeZgjPgIidn4zcSVDIwwD5rRJAeNNLIMqC54li9pBDFX8DAuwzICBMDx63VIBQZkXBaearNEVAgA7" alt="" /> — рациональные выражения, т.е. алгебраические выражения, составленные из чисел и переменной х с помощью операций сложения, вычитания, умножения, деления и возведения в натуральную степень. Разумеется, переменная может быть обозначена любой другой буквой, но в математике чаще всего предпочтение отдается букве х.</p>
         <p>Рациональные неравенства удобно решать методом интервалов.</p>
-        <hr noshade/>
-        <div align="center"><b>Метод интервалов</b></div>
-        <hr noshade/>
+</div>
+<br></br>
+<div class="block"><h3>Метод интервалов</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <p>Если на интервале (a ; b) функция f непрерывна и не обращается в нуль, то она на этом интервале сохраняет постоянный знак. На этом свойстве основан метод решения неравенств с одной переменной – метод интервалов. Пусть функция f(x) непрерывна на интервале I и обращается в нуль в конечном числе точек этого интервала. По свойству непрерывных функций этими точками I разбивается на интервалы, в каждом из которых непрерывная функция f(x) c охраняет постоянный знак. Чтобы определить этот знак, достаточно вычислить значение функции f(x) в какой-либо одной точке из каждого такого интервала. Исходя из этого, получим следующий алгоритм решения неравенств методом интервалов.</p>
-        <hr noshade/>
-        <div align="center"><b>Алгоритм решения рациональных неравенств методом интерваловв</b></div>
-        <hr noshade/>
+</div>
+<br></br>
+<div class="block"><h3>Алгоритм решения рациональных неравенств методом интервалов</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <ol>
             <li>Найти область определения функции f(x);</li>
             <li>Найти нули функции f(x);</li>
@@ -54,6 +68,7 @@
             <li>Найти знаки функции в полученных промежутках, вычислив значение функции в какой-либо одной точке из каждого промежутка;</li>
             <li>Записать ответ.</li>
         </ol>
-    </td>
-</table>
+</div>
+<br></br>
 </body>
+</html>

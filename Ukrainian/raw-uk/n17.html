@@ -1,60 +1,78 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Проценты</title>
-    <style>
-        P {
-        font-style: normal;
-        text-indent: 15px;
-        }
-        BODY {
-        background-color: #EEEEEE
-        }
-        TABLE {
-        background-color: #FFFFFF;
-        border-radius:6px;
-        -webkit-border-radius:6px;
-        -moz-border-radius:5px;
-        -khtml-border-radius:10px;
-        box-shadow: 0px 0px 2px #777;
-        }
-        HR {
-        border: 1;
-        height: 1;
-        }
-        TABLE {
-        border: 0;
-        align-content: center;
-        width: 90%;
-        }
-        IMG {
-        vertical-align: middle;
-        }
-    </style>
+<title>Логарифмічні нерівності</title>
+<style>
+    @font-face {
+    font-family: 'Roboto_Light'
+    src: url('file:///android_asset/Roboto_Light.ttf');
+    src: local('Roboto_Light'), local('Roboto'), url('file:///android_asset/Roboto_Light.ttf') format('truetype');
+    }
+
+    P {
+    font-style: normal;
+    text-indent: 5px;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+	
+	UL {
+	font-style: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+	}
+	
+	OL {
+	font-style: normal;
+	font-family: 'Roboto_Light', Arial, sans-serif;
+	}
+
+    H3 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    font-weight: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+
+    body{
+    background-color: #D5D5D5;
+    }
+
+    .block {
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px #AAA;
+    margin-top: -8px;
+    padding: 15px 15px 15px 15px;
+    word-wrap: break-word;
+    border-radius: 3px;
+    line-height: 27px;
+    }
+</style>
 </head>
 <body>
-<table align="center">
-    <td>
-        <div align="center"><b>Логарифмічні нерівності</b></div>
-        <hr noshade/>
+<div class="block"><h3>Логарифмічні нерівності</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <p>Логарифмічна нерівність – це нерівність вигляду <img src="data:image/gif;base64,R0lGODlhqwASAIQAAP///wAAAMDAwEBAQLCwsHBwcNDQ0ICAgJCQkFBQUPDw8BAQEDAwMODg4GBgYKCgoCAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAACrABIAAAX+ICAKAyGeaKquKmmyxoCw7fDQeA64eu+nsZmOdEsVAoafUnRMrhQLhuJ3CLyWuSZ2q4JKfdWraBDg+gYL2rGxRE/NKzIcvla6UYEBUOBUGQRsPgEJAA2AKA0BB1iJi3MpeXt9e4E/hgKIikuNJwKaIgQQAaMDlQChowEQCw45ngcOqQUnVaZQeicGUaYOaSsEB28/ryeopKbGqqxDZKmOtSi3KLoMlb20AZgAD3kEArG42wEMDwIPZEI0VRAFAgQLSCIM4SfcRdTCoFYsAgnBVNlEcCvxLZLAceXOBUjHghs5cxAIAZinwp4IfCgI7AMgB4CBQSjIsPko8eCkOBD+KnFz9CkFBAgeo+Q70XJFvwKmaHQkGTLASJD14tH4SM+jiJonXsb8AoklrgQ+UVTBBDXftRwBWnXS5EnM1l5MVTAoOdSBg5wqDEI1NRVAVRRXaay1uTGFJ7Az5RH6OAuAQWyYgCYt6mchCk8zPGlTQSYsY8IsGphFezFA378i2goWAQEyHrKHA8YZl3eMHgT7iPXcUVMBUhWoJ1VJoniFrqw4BnhmcQDCSRGoTag+IWc4ANeO+L0eIRoIPK1x9Lw17pqQcY3aDDAY5ftEAl9JYbIuMi3KXBYRfZwjr2J6a5DXRWvn7sR4aPYXzUddkT6KiET0QIVJIhC8IcB2bxD+8EIC4SxATxg09ZWLTIlAlwJyOSiAgA05+FcIZgJ+WOAICIKyIC5EpXCFZc5JUeETirw4RlbukEEeGQ6K4uF/AhwwgFYEHuAOVBYywEB5TLVVUV1dHJCAVyvIyBGNBNhIXAA5YnnkCYb4CB0ZCQggQAHsnGAkkm8oiQI3BFgkggLNqCKGAj4OgBOLx6HhzwJFcAPVKAswBIAWSwkjDWPgXejkYjm4mWcqEMxZ5519wbnAnuTBmcogixGK0ZsOIkqDIb+lwI0TDgzwxn4nKCBmlJv5YF8njHJBaqNCpbpqTpfMlAhoQyyHQwPCNNAZcX31tkQstWa4SmmP5EAsl8dOjpGseD4w+4MCzy4BVWeNCVOFbgxY2AMUC1DGAlRQRqvDt7qRhg255ma4QLo+sIsFAan+iJ9Hzf4Qg4SNcujuEvzq5sC/f3AxcA/rnRACADs=" alt="" />. Нерівності, що зводяться до такого вигляду, також називаються логарифмічними нерівностями.</p>
-        <hr noshade/>
-        <div align="center"><b>Правило</b></div>
-        <hr noshade/>
+</div>
+<br></br>
+
+<div class="block"><h3>Правило</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <p>Якщо <img src="data:image/gif;base64,R0lGODlhSwASAIQAAP///wAAAMDAwEBAQLCwsHBwcNDQ0BAQEFBQUODg4ICAgGBgYCAgIKCgoJCQkPDw8DAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABLABIAAAX+ICAKAyGeqDE4aNuSjSvP9EkoiuEWgS4/B8ij1lIETMSky8AIOAOD4WlwoPESShRVmlVCDqaHsYAKIAAJAfaUCCi6bDc8aZBPqyP34kkWGdciQAMpQYAAC3gyN1xKRgIojn4BDAUCBAc9IhCDLQ0BMQAGQYwABEc0AggKpDQIAS8BLAADDICebwB2LQwMoaMyujOpBYYzA68oAnYBC8lyykiwiEIzEGd0CwvFLcewb3WyeSzKjzLH1MacSgnZ2yLdzm8OmSdGOuQyosw1A+pZCgx8tNjDyFQMBIlE8MoDipC1AO4UXlPSYEBDF/PKSdJxwJ+RaAH6nBAlpE2zH8FvZjxwYJFInZMKe7VhoMCSK5gAIEBwKCWSC0/RfihAELSGq0oEjrHw5MrJgXAiePggyUWQuYQtxCDQqOTBHqe4TjwQwDXOxC7KwrogO0cs2zl7yhJ5wOAAq7Z4aQA5EFGGq6J5A89QIZJIxYuCs4QAADs=" alt="" /> і <img src="data:image/gif;base64,R0lGODlhSQASAIQAAP///wAAAODg4MDAwEBAQICAgKCgoDAwMCAgIFBQUNDQ0LCwsHBwcPDw8JCQkBAQEGBgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABJABIAAAX+ICCOJKkQTqmOA2GscAwvRaHIavMcDU4WgYVvaEIEjgFCb8gICIgjwmMJxR0ewgaQoRIMBiRBoFAVicnlmGJMkpJaSDYA+BzpCKZdXQR5zApUQ0BgI4MiBgEHBgMGCAkiB3gliC8ACjuBAAtBMAMJgEQJASUDASlrkiM3AHIlCAiWmCutK54MezEEo29sorgsnCqlfTwwB484ChAQvyW6pGwByMIBhCq6xTAEqTgCy80iz7wFpWjU1nkBEDLbVQUIqyUQAYGbi7S8lXnHTjGORAZcxHBQ7UcABahKCBERgMu+BmLWrWiAL4cDgTLWSBTxKpy0LwwQOARw4MBDEYZVVCBaOLFAApY4RDEYsEBXCgANdCFJYK3JqkvZcD7gFsVPS55VGsw78sCcmS+ZxEyDUq4TuqRfysy7iqMBgilpwg7R8QAcDFEwxapdcWIkjoD61hIJAQA7" alt="" />, то:</p>
         <ul>
             <li>при a > 1 логарифмічна нерівність <img src="data:image/gif;base64,R0lGODlhqwASAIQAAP///wAAAMDAwEBAQLCwsHBwcNDQ0ICAgJCQkFBQUPDw8BAQEDAwMODg4GBgYKCgoCAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAACrABIAAAX+ICAKAyGeaKquKmmyxoCw7fDQeA64eu+nsZmOdEsVAoafUnRMrhQLhuJ3CLyWuSZ2q4JKfdWraBDg+gYL2rGxRE/NKzIcvla6UYEBUOBUGQRsPgEJAA2AKA0BB1iJi3MpeXt9e4E/hgKIikuNJwKaIgQQAaMDlQChowEQCw45ngcOqQUnVaZQeicGUaYOaSsEB28/ryeopKbGqqxDZKmOtSi3KLoMlb20AZgAD3kEArG42wEMDwIPZEI0VRAFAgQLSCIM4SfcRdTCoFYsAgnBVNlEcCvxLZLAceXOBUjHghs5cxAIAZinwp4IfCgI7AMgB4CBQSjIsPko8eCkOBD+KnFz9CkFBAgeo+Q70XJFvwKmaHQkGTLASJD14tH4SM+jiJonXsb8AoklrgQ+UVTBBDXftRwBWnXS5EnM1l5MVTAoOdSBg5wqDEI1NRVAVRRXaay1uTGFJ7Az5RH6OAuAQWyYgCYt6mchCk8zPGlTQSYsY8IsGphFezFA378i2goWAQEyHrKHA8YZl3eMHgT7iPXcUVMBUhWoJ1VJoniFrqw4BnhmcQDCSRGoTag+IWc4ANeO+L0eIRoIPK1x9Lw17pqQcY3aDDAY5ftEAl9JYbIuMi3KXBYRfZwjr2J6a5DXRWvn7sR4aPYXzUddkT6KiET0QIVJIhC8IcB2bxD+8EIC4SxATxg09ZWLTIlAlwJyOSiAgA05+FcIZgJ+WOAICIKyIC5EpXCFZc5JUeETirw4RlbukEEeGQ6K4uF/AhwwgFYEHuAOVBYywEB5TLVVUV1dHJCAVyvIyBGNBNhIXAA5YnnkCYb4CB0ZCQggQAHsnGAkkm8oiQI3BFgkggLNqCKGAj4OgBOLx6HhzwJFcAPVKAswBIAWSwkjDWPgXejkYjm4mWcqEMxZ5519wbnAnuTBmcogixGK0ZsOIkqDIb+lwI0TDgzwxn4nKCBmlJv5YF8njHJBaqNCpbpqTpfMlAhoQyyHQwPCNNAZcX31tkQstWa4SmmP5EAsl8dOjpGseD4w+4MCzy4BVWeNCVOFbgxY2AMUC1DGAlRQRqvDt7qRhg255ma4QLo+sIsFAan+iJ9Hzf4Qg4SNcujuEvzq5sC/f3AxcA/rnRACADs=" alt="" /> рівносильна нерівності <img src="data:image/gif;base64,R0lGODlhZAASAIQAAP///wAAAMDAwEBAQLCwsHBwcNDQ0BAQEFBQUODg4ICAgGBgYCAgIKCgoJCQkPDw8DAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABkABIAAAX+ICAKAyGeqDE4aNuSjSvPdC2qrD0OcVsEhtnjAHnoToqA6cjUDYvN5PI0ONB+iaaoatR6fYGslosKIAAJgViUCCi+7ff3mBac4nD3SeBeBP4FSGEoQwMpRGsAC1YzBApdWiR/f29JiYWHEImLggwFAgQHQCIQhi0NAT0GRJAiBEo0AgiPTagQDQINDGelLqiqrC2vSwMMa6hyei4MDACrUC7KsQgFiTMGAaYnQdIozM7B0ckLKHxvfFPlAYvQLhBnOgYLC9YtCIMvsC587K0o784C5BghEAAfOzIGBGjnYoA2HQnm1RNhRsbBGQoZtnAIwMEoQUEuuli1rgZHLQrJGATJJycfwhYkydHgiIDRiW8GU40kcm+iiF21eMwwZ1EnTJ74ZAA98FDKiQCBMj1oI9PFg25CHAilge0hgCVQjxahKsRNGwYKQN2rCgACBKkikrxEgSqdVQUI7GI0I0BAAU+k3m4LJ1dGXVT3/hwYKOLHymeQMDW0eRfBXBsPFE6y3Pgj5BOSN1J+0FdGG3iRsJa7zKROq9NfiDLxw7rGAwYH/M1pQlvL7dxNhhzwKeOe3t1MhBN3YdyLiqg6GmxFPuc5E+k9AIQAADs=" alt="" />;</li>
             <li>при 0 < a < 1 логарифмічна нерівність <img src="data:image/gif;base64,R0lGODlhqwASAIQAAP///wAAAMDAwEBAQLCwsHBwcNDQ0ICAgJCQkFBQUPDw8BAQEDAwMODg4GBgYKCgoCAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAACrABIAAAX+ICAKAyGeaKquKmmyxoCw7fDQeA64eu+nsZmOdEsVAoafUnRMrhQLhuJ3CLyWuSZ2q4JKfdWraBDg+gYL2rGxRE/NKzIcvla6UYEBUOBUGQRsPgEJAA2AKA0BB1iJi3MpeXt9e4E/hgKIikuNJwKaIgQQAaMDlQChowEQCw45ngcOqQUnVaZQeicGUaYOaSsEB28/ryeopKbGqqxDZKmOtSi3KLoMlb20AZgAD3kEArG42wEMDwIPZEI0VRAFAgQLSCIM4SfcRdTCoFYsAgnBVNlEcCvxLZLAceXOBUjHghs5cxAIAZinwp4IfCgI7AMgB4CBQSjIsPko8eCkOBD+KnFz9CkFBAgeo+Q70XJFvwKmaHQkGTLASJD14tH4SM+jiJonXsb8AoklrgQ+UVTBBDXftRwBWnXS5EnM1l5MVTAoOdSBg5wqDEI1NRVAVRRXaay1uTGFJ7Az5RH6OAuAQWyYgCYt6mchCk8zPGlTQSYsY8IsGphFezFA378i2goWAQEyHrKHA8YZl3eMHgT7iPXcUVMBUhWoJ1VJoniFrqw4BnhmcQDCSRGoTag+IWc4ANeO+L0eIRoIPK1x9Lw17pqQcY3aDDAY5ftEAl9JYbIuMi3KXBYRfZwjr2J6a5DXRWvn7sR4aPYXzUddkT6KiET0QIVJIhC8IcB2bxD+8EIC4SxATxg09ZWLTIlAlwJyOSiAgA05+FcIZgJ+WOAICIKyIC5EpXCFZc5JUeETirw4RlbukEEeGQ6K4uF/AhwwgFYEHuAOVBYywEB5TLVVUV1dHJCAVyvIyBGNBNhIXAA5YnnkCYb4CB0ZCQggQAHsnGAkkm8oiQI3BFgkggLNqCKGAj4OgBOLx6HhzwJFcAPVKAswBIAWSwkjDWPgXejkYjm4mWcqEMxZ5519wbnAnuTBmcogixGK0ZsOIkqDIb+lwI0TDgzwxn4nKCBmlJv5YF8njHJBaqNCpbpqTpfMlAhoQyyHQwPCNNAZcX31tkQstWa4SmmP5EAsl8dOjpGseD4w+4MCzy4BVWeNCVOFbgxY2AMUC1DGAlRQRqvDt7qRhg255ma4QLo+sIsFAan+iJ9Hzf4Qg4SNcujuEvzq5sC/f3AxcA/rnRACADs=" alt="" /> рівносильна нерівності з протилежним змістом <img src="data:image/gif;base64,R0lGODlhZAASAIQAAP///wAAAMDAwEBAQLCwsHBwcNDQ0BAQEFBQUODg4ICAgGBgYCAgIKCgoJCQkPDw8DAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABkABIAAAX+ICAKAyGeqDE4aNuSjSvPdC2qrD0OcVsEhtnjAHnoToqA6cjUDYvN5PI0ONB+iaaoatR6fYGslosKIAAJgViUCCi+7ff3mBac4nD3SeBeBP4FSGEoQwMpRGsAC1ZeCQtBMyR/f29JiYWHEImLggwFAgQHQCIQhi0NAT0GRF0nBEpNjguJpwEQDQINDGelLqiqrC2vSwMMa6hyei4MDACrUC7KNgILszUGAaYnQdIozM7B0ckLKHxvfFPlAYvQLhBnNQIICrQyCIMvsC587K0t784C5BghEAAfOzIG2PLXYoC2ffMY0jAj4+AMhe1cOATgYJSgIBZdrFpXY6MMXenLpnXbEwBhi5HkaGxEwOjEN4OpRBK5V88mPBkPFCBwGW8lwR6ZeNLYBeDAQyknAgTK9KBNTBcPjLYIigDpDGwPASyR+pKVVSFu2jBQAOreVQAQIFAVkYToCVQphTTgUdKMAAEFPJGSuy1c3ZNKUN37c2CgiB+QnrXCpLEmk70NJAJ4oHDS0MceJZ+g3NDyg78y2vxsYm5Og55s/vpT/aU1Ez92bTxgcEDznCO4tezu3WTIAdj29P3+Yhy5i3t5baiYqgPz8uXTL/MVEQIAOw==" alt="" />.</li>
         </ul>
-        <hr noshade/>
-        <div align="center"><b>Системи нерівностей за різних умов</b></div>
-        <hr noshade/>
+</div>
+<br></br>
+
+<div class="block"><h3>Системи нерівностей за різних умов</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <p><b>При a > 1:</b></p>
         <img src="data:image/gif;base64,R0lGODlhcQBEAIQAAP///wAAAKCgoEBAQGBgYICAgFBQUPDw8BAQEODg4JCQkMDAwNDQ0LCwsCAgIHBwcLW1tTAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABxAEQAAAX+ICCOojCQaKqubOu+cOwSQSHfeK7vJC3wwKBQVwgYgItBg8UYKGLJ3zDVKBQYugMikAA+AliVNnKQFZdTEcMRaAcG5ZvCGBwgWN/uzR6fRhBLB0UPOAM1QXQJC3oiCYc4jjZTDI8idjhtC0g1NG2EIkWMAFonIwwIEaIEdypVfTBFmiOxN5lARQ4PCw1bYRGlJAIBUqdkKA0BaCkLBgWvLQYBKAsBTzK2PAMOjMKSlSQODgDFzyLfywYPoiuG0+cu2DsBBCTUNtTK9fOo5SIRRy4YECCwDkU7fZJixMtByZoIak+oyUphyBg7YC4SDCxoSRrCWgEm5pgTBhQYABL+VZya12IAxhcFHJTsEeAVMikKQ/IwwGpEuIfDUhSLxlGEA4AvTOBMMUdkkZkvFuJAgPHMiACfTPFzRE/MOxQHFAxYqpKlT3EgRd5w5KDArmhd/UUgQc6k2hLJWAgykA8a1l2GHMZwCVWGsGhtEAgG8CVMXRGkVFwSU8DA3RYHOgVAkFDGggX9bhz4rMIRUs9fUV6GMXp1VJ1pUtBwLcYBgtCxMcHOPUILgqIqovXlrUMq7yZZXSglLsQ48+fQUTiPTp359OrY01zPzh3IdiFNFrOIwrzKFXm7eY/BncJq7DVu3rAv3Qa4kDyFbsf+E2gQDmRoCaGISJHkUOAk30z+JgMNne2QRHyShEJCZFql0kNPxzhzAy2zpOeCb/MlFUAEAiwgwFH+vASAMMTwc0xeKjCjIQzRuCMeC0XceAMlL4Xx1U+PSdfgNOnY15E7Q65ATVw7cREjjO6sYlEK/7wgEEEteTSCPTAsgEByPNDx5GoV4eZSDBphKZmWQCWZQmo4cDmmSlswSZGKLcRUGAA02BTUC16CqYOcy/xJFypEsYAiDMut0BQJT0FhFg88HnMVmORwtcIBcEImFllCTQrAT2ZUU4cRnz2QywgRzFVhHByiIMxwvVVGa3B/NRCYaAjox8MBhrhh2QiNqeEiZFRJhuGEldGWQmZucJYDgwL+fvaMaTkQOo2zepGmA4DQzSaabSF254iTzPlmJAnCdZcTt0AgF0Oj7r4Gb734tvBdvvyusG+/AF/lYcAEvznwlkow4YRnY7kbXpcNG+xasWIcG4N72K13MZQCu6ZgCvjlV+4UIQ/mq8AQsJDIIiQcCEmnPAzYMswpuGxOACk/WYBmWUnYW7IVrrPKCq5kG2wbEaKLLEbFMDI0CdPhogsvJwHwSwosGjvlCMjcKuPIK45Y4okAXS3rn0EC0DXUBwOgDTeP/ChO2lC7+VCRVr6Bgo9JAmnxVZ1NJyqX+DwpJW5VBrSRXxwVXujhKiR+82UN6RNR22W2hGdpi6sgZqHZZI4Y2pkdq0ASpCelJFSdLpB+sUyFuqn63qxfxPZlPKFAKjWgDqW0CosmFXHsShpaYaLAn+Yc0CYpgxXtZGi6KcxhDV/WS85jupWovX1jHFtuNQAXCa0ealGsZ986iq0wGGLZAqpmVf6rdmHNMRugHhbtYhQHSSFFy6rVsGIArPgMkDFV8x/zRvAxPj1vU95CAbaylZoIrsVaEvycpBpEjQDhQFzjOhl1QMgaclHEeDJQ1w3alR0V0ohjWhGhDOQ1L+thh4bKsaH5wFYwfK0hgD0MIkqEGLAQAAA7" alt="" />
         <p><b>При 0 < a < 1:</b></p>
         <img src="data:image/gif;base64,R0lGODlhcQBEAIQAAP///wAAAKCgoEBAQGBgYICAgFBQUPDw8BAQEODg4JCQkMDAwNDQ0LCwsCAgIHBwcLW1tTAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABxAEQAAAX+ICCOojCQaKqubOu+cOwSQSHfeK7vJC3wwKBQVwgYgItBg8UYKGLJ3zDVKBQYugMikAA+AliVNnKQFZdTEcMRaAcG5ZvCGBwgWN/uzR6fRhBLB0UPOAM1QXQJC3oiCYc4jjZTDI8idjhtC0g1NG2EIkWMAFonIwwIEaIEdypVfTBFmiOxN5lARQ4PCw1bYRGlJAIBUqdkKA0BaCkLBgWvLQYBKAsBTzK2PAMOjMKSlSQODgDFzyLfywYPoiuG0+cu2DsBBCTUNtTK9fOo5SIRRy4YECCwDkU7fZJixMtByZoIak+oyUphyBg7YC4SDCxoSRrCWgEm5pgTBhQYABL+VZya12IAxhcFHJTsEeAVMikKQ/IwwGpEuIfDUhSLxlGEA4AvTOBMMUdkkZkvFuJAgPHMiACfTPFzRE/MOxQHFAxYqpKlT3EgRd5w5KDArmhd/UUgQc6k2hLJWAgykA8a1l2GHMZwCVWGsGhtEAgG8CVMXRGkVFwSU8DA3RYHOgVAkFDGggX9bhz4rMIRUs9fUV6GMXp1VJ1pUtBwLcYBgtCxMcHOPUILgqIqovXlrUMq7yZZXSglLsQ48+fQUTiPTp359OrY01zPzh3IdiFNFrOIwrzKFXm7eY/BncJq7DVu3rAv3Qa4kDyFbsf+E2gQDmRoCaGISJHkUOAk30z+JgMNne2QRHyShEJCZFql0kNPxzhzAy2zpOeCb/MlFUAEAiwgwFH+vASAMMTwc0xeKjCjIQzRuCMeC0XceAMlL4Xx1U+PSdfgNOnY15E7Q65ATVw7cREjjO6sYlEK/7wgEEEteTSCPTAsgEByPNDx5GoV4eZSDBphKZmWQCWZQmo4cDmmSlswSZGKLcRUGAA02BTUC16CqYOcy/xJFypEsYAiDMut0BQJT0FhFg88HnMVmORwtcIBcEImFllCTQrAT2ZUU4cRnz2QywgRzFVhHByiIMxwvVVGa3B/NRCYaAjox8MBhrhh2QiNqeEiZFRJhuGEldGWQmZucJYDgwL+fvaMaTkQOo2zepGmA4DQzSaabSF254iTzPlmJAnCdZcTt0AgF0Oj7r4Gb734tvBdvvyusG+/AF/lYcAEvznwlkow4YRnY7kbXpcNG+xasWIcG4N72K13MZQCu6ZgCvjlV+4UIQ/mq8AQsJDIIiQcCEmnPAzYMswpuGxOACk/WYBmWUnYW7IVrrMKJATs+VCwbUSILrIYFcPI0CRMh4suvJwEwC8psGjslCMgc2vNG7EgDIkmLoq1rH8GCYDXUR8MgDbcPPKjOGpH7WY9YTPxBgo+JgmkxVd1Np2oXOLzpJS4VTleM+smWiitSwLO6mnONaRPRG6X2RKeKDUzspjdhZI5YmhndqwCSZCelJJQdbpQuqwOfF2om6vz3fpFbV/GEwqkUgPqUEursOizzXaZmu+s/xM8OJQfDLRJymBlOxmabtrpXqDyvTcJ0WO6lai9fWMcW241ABcJrR5qUaxoyw4ZvWtatoCqWaX/ql1Zc8wGqIdFuxjFQaIQRZalnLH0A1jxGZYIAGgxAY7gY3yS3qa8hQJsZYtmWQPOgK4FOkk1iBoBwoG4xnUy6oyQNeSiiKF49ZsbtCs76orBC21XQhnIa14R484NC5i9rY2sYPlaAwGBSESUFDFgIQAAOw==" alt="" />
         <p>Зверніть увагу: перші дві нерівності одинакові в обох системах. Розрізняються за змістом тільки треті нерівності.</p>
-    </td>
+</div>
+<br></br>    
+	</td>
 </table>
 </body>

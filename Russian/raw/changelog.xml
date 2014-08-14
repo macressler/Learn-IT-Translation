@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion versionName="1.1" changeDate="14 серпня 2014">
+        <changelogtext>Полностью новый дизайн</changelogtext>
+        <changelogtext>Переработана боковая навигация</changelogtext>
+        <changelogtext>Убраны полностью все предложения пожертвовать</changelogtext>
+        <changelogtext>Добавлено предупреждение при выходе из программы</changelogtext>
+        <changelogtext>Ускорена работа программы в окнах теории</changelogtext>
+        <changelogtext>Улучшена поддержка 7-дюймовых планшетов</changelogtext>
+        <changelogtext>Улучшено качество картинок в Логарифмах</changelogtext>
+        <changelogtext>Исправлены несколько критических багов</changelogtext>
+        <changelogtext>Исправлены баги в боковой навигации</changelogtext>
+        <changelogtext>Исправлены ошибки локализации</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.0.2" changeDate="20 січня 2014">
+        <changelogtext>Исправлен баг нажатия на статью</changelogtext>
+        <changelogtext>Исправлены ошибки локализации</changelogtext>
+    </changelogversion>
+    <changelogverstion versionName="1.0.1" changeDate="19 січня 2014">
+        <changelogtext>Удалена новогодняя тематика</changelogtext>
+    </changelogverstion>
+    <changelogversion versionName="1.0" changeDate="30 січня 2013">
+        <changelogtext>Начало бета теста</changelogtext>
+    </changelogversion>
+</changelog>

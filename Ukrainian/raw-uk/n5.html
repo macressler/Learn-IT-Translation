@@ -1,43 +1,50 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Числа</title>
-    <style>
-        P {
-            font-style: normal;
-            text-indent: 15px;
-        }
-        BODY {
-            background-color: #EEEEEE
-        }
-        TABLE {
-            background-color: #FFFFFF;
-            border-radius:6px;
-            -webkit-border-radius:6px;
-            -moz-border-radius:5px;
-            -khtml-border-radius:10px;
-			box-shadow: 0px 0px 2px #777;
-        }
-        HR {
-            border: 1;
-            height: 1;
-        }
-        TABLE {
-            border: 0;
-            align-content: center;
-            width: 90%;
-        }
-        IMG {
-            vertical-align: middle;
-        }
-    </style>
+<title>Дробово-раціональні вирази</title>
+<style>
+    @font-face {
+    font-family: 'Roboto_Light'
+    src: url('file:///android_asset/Roboto_Light.ttf');
+    src: local('Roboto_Light'), local('Roboto'), url('file:///android_asset/Roboto_Light.ttf') format('truetype');
+    }
+
+    P {
+    font-style: normal;
+    text-indent: 5px;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+	
+	UL {
+	font-style: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+	}
+
+    H3 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    font-weight: normal;
+    font-family: 'Roboto_Light', Arial, sans-serif;
+    }
+
+    body{
+    background-color: #D5D5D5;
+    }
+
+    .block {
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px #AAA;
+    margin-top: -8px;
+    padding: 15px 15px 15px 15px;
+    word-wrap: break-word;
+    border-radius: 3px;
+    line-height: 27px;
+    }
+</style>
 </head>
 <body>
-<table align="center">
-    <td>
-        <div align="center"><b>Дробово-раціональні вирази</b></div>
-        <hr noshade/>
+<div class="block"><h3>Дробово-раціональні вирази</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <p>Вирази, які можуть містити дії додавання, віднімання, множення, ділення і піднесення  до натурального степеня чисел і змінних, називаються раціональними. Якщо раціональний вираз містить дію ділення на вираз зі змінною, то його називають дробовим, у іншому випадку - цілим.</p>
         <p>Дробово раціональними називають вирази вигляду <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAWCAMAAADO+P1vAAAAM1BMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxgEwMAAAAEHRSTlMAXr8uDu/Pbp+Pfj4er07ftzDRMwAAAHRJREFUCB1VjkEWxCAIQ5FRpFAr9z/tENoumoV+4yOECGr8q5uoD5kP6mF2o4/e+EZp5FI4h5kGsCeZxZmoCiOcKGeA/Kbh8VW8+to0mXllQkrMXQeoI/7awGu4N6nCtpllF9aio1oGDF15OGYb6pBh28qfP3S+A41XDJ/CAAAAAElFTkSuQmCC" alt="" />, де <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMBAMAAACkW0HUAAAAJ1BMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAilU6eAAAADHRSTlMAz79u3w7vj36fPl7Ng5SHAAAAT0lEQVQIHWNgYGBgPAQkGBhsfEAka3oPiOJM7VkApNZsWAOihBjWNDAwMJ9i4AFSYUlKOgoMDNM6OloUGLgOMzBwHGBgdABTNgsYGLhOAQB3PhDblgkBywAAAABJRU5ErkJggg==" alt="" /> і <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAMAAACDd7esAAAAM1BMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxgEwMAAAAEHRSTlMAv68u7z5+315uHg6fj89ONTwPegAAAFlJREFUCB0djVkSwCAIQ4NLUdE29z9tg3xkHoQAABizShWild77QxdWjpwYJZNLGm1LC7Uy3ULsN9qmcDE1Dh9gsIsBGrAzn3YBXvWqLTuYn4bxAN+94luhH9ymA0T2u8CFAAAAAElFTkSuQmCC" alt="" />  - многочлени.</p>
         <p>Якщо чисельник і знаменник раціонального дробу помножити або поділити на многочлен, відмінний від нуль-многочлен, то отримаємо дріб, тотожно рівний даному: <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG0AAAAXCAMAAAA2nzHDAAAAPFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo1xBWAAAAE3RSTlMAXr8uDu/Pbp+Pfj4er07f68OHUSrr0QAAAgRJREFUSA2lVet6wyAIVaPWShO3+f7vOvCKiTXdN35EEg4gCidCkEi1pXXxKBCpYrR+gbs3aWMfN6gCcRaElvYGvDa7p7/bbobIoNeRPrCC0VKtcQUS5DsYwPouNngVVysF3BxOhrxidRmTwh5RjBsLB2ioLaB9T+aH8d7FZpkpBQJzlIw7Fra5OJaXo6dwwUjw0aGuMZn3b3adU1cIxHH32SpTGNSP/F6e0FvhiFSmJ29HKUV6L7jL0iCBsLAPAG3md85K84Y8NsyB90+q6iOgqjzJgNIhWwgqhA4l6yOONWEsEhuUqgFU3k/s1ZJjlpqsgauB1u3Se+pymSnA1/dn2XjwD/Q4PUh2a1RsikO1UfMmqZGpaZK04aqIvlYsrtds5Bx+8FEDsGzMMast5nTTV3g4f7oEyF0CuRMfeNB7H8WzM703SGdlXW5wL+2sefOMG2UTIIT1AC416SxR+lYhjJV9zAe1GYNNuXnDOk7WMywB+3QLTZN9XM6DZ64Qzsoqjw4msnR0wbPJH0tDCDGXSoDDAEg7sg5PhXqFMFbWsU6TEC9onJscz6Xhx8bKHufQhmW2AuGsfCy47lwa33uikecKkZnmqTgru5G/eMBJad2cqHvhjMgCmbNyj1S0M5NxAFA3yiUrN8iMlXmse91TR9EP6r00yIyV37v933Jl5b/E/AW98hR9iaSwnAAAAABJRU5ErkJggg==" alt="" /></p>
@@ -46,14 +53,18 @@
         <p>Добутком раціональних дробів є дріб, чисельник якого дорівнює добутку чисельників, а знаменник - добутку знаменників.</p>
         <p>Ділення дробів зводитьться до добутку. Дріб, на який потрібно поділити, перевертаємо (міняємо місцями чисельник і знаменник), а потім множимо: <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAXCAMAAABJTiMyAAAAM1BMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxgEwMAAAAEHRSTlMAXr8uDu/Pbp+Pfj4er07ftzDRMwAAAadJREFUOBG1lNG2hCAIRdXKDCr5/6+9omLojDMPs64PCUJbMjzG8LBuyfPkYR2Rh0lQlgsDnHNw1rV187uE38zBo1mtfxNRS5XhAe9AdwmEAz5UY+Oq3p+ZhbES1woxZ+G2WjfLNybaeaxFKuPORKS87q3B+VeeuYQGmBiVAYHj98bPfQMIZQd2x1E3H5d7Xxguf9vB9DVhAeZFIX0/3sYg7qslw0IunVAVsG/ai5yAl4q/mMLAdAAnbFx0OnBOc7rRAulftcToYlTx1KJlHHWDxtiJKAZp3xpV03BLFuwWBOuEq978fzOVXkbZin9iGfUsJEytZSQB2mk9OWK91I1tdN+u8+Rd+nCZOH9PB3bpDtCQZHdaMsTEbQylUUkrMOQrUrPOvWvZTksENMzCUBqVtaJc7Jp8keoq02nJgBNXGFqj7g3Ren2aeOkW7LREQMMsDK1REJ3zUXP7l7SW9JHHq4xOo/JVO+b/VmnJAxqsyug0KmtFmN9/pSUD7XErQ2sUa4Wxne48+clSWtKta6cxlEYBt/k1P95vWsL8xnjRKL37T3bVqD+1wxFMyFraEAAAAABJRU5ErkJggg==" alt="" /></p>
         <p>Піднесення раціонального дробу до степеня з цілим показником: <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAWCAMAAAC/gJHxAAAAM1BMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxgEwMAAAAEHRSTlMAj68Ofl4e758uPs/fv25OOyC/PwAAAa1JREFUOBGVVVmC7CAIJIpLXBLvf9oBFKdNOvPy+GiFUAhI2QAf4ur+ob3bCqbUWuzib0M+FsMLRTC2eahp8Y4b4mJ4oQgmZYDQnTcj+aVgXRWL1poihvZn+I7BDXYKR4LNyZod8AEsNXheMDg4Gu+epGOMAxfZxQdZ4AiIcQBtkAQr5ZRG8l+jfWLYYaPGkVgKhdj3AK5xK/kHe9nscpMVQ59HWlGykxCMYeveqI+c25NcMASQblETGVF1KCKVdnD3wjkiVZVtGKj8FUPVSIn6XdeDzHysn581VJ2x1Heu+P2e0qx2ev57o7GaSofcY/HViPQJIjdF6ErT9fW885aXItrzxf4mcFBHjLLq4YjLuQez0FYPndx+kiRjSnx9Inkw4AK+qLnQ9aQGSu5cugPrcA7FNx2OC3pRbXPkT9Os5HaDjmdIyeXxgJk+OgvyrpwZws7TPMk9njGkmnPpsdyrtCBuEBFCgknufRCZq9rkkvbBq3smq6WcQJUw06b4xFrjlKJh6663ycqzeIpimzBtdZK3pT8P64dnjRsPptw5hTyL5r/+O+SZ0KujsD+owg+yxEiAkQAAAABJRU5ErkJggg==" alt="" /></p>
-        <hr noshade/>
-        <div align="center"><b>Зведення дробів до спільного знаменника</b></div>
-        <hr noshade/>
+</div>
+<br></br>
+
+<div class="block"><h3>Зведення дробів до спільного знаменника</h2>
+	<hr size="1px" width="100%" color="#AAA" align="center" />
         <ol>
             <li>Знайти НСК знаменників цих дробів - це і буде спільний знаменник;</li>
             <li>Знайти спільний множник  для кожного дробу (ділимо спільний знаменник на знаменник дробу);</li>
             <li>Помножити чисельник і знаменник кожного дробу на відповідний додатковий множник.</li>
         </ol>
-    </td>
+</div>
+<br></br>   
+	</td>
 </table>
 </body>
