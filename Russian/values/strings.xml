@@ -2,19 +2,21 @@
 <resources>
     <string name="app_name">Learn IT!</string>
     
-    <!-- Тексты из "Настройки". Начало -->
+    <!-- Settings names. Start -->
     <string name="settings_activity">Настройки</string>
-    <string name="settings_main_activity">Общие настройки</string>
     <string name="settings_main_lang">Язык приложения</string>
     <string name="settings_main_lang_summ">Изменить язык приложения</string>
     <string name="settings_lang_dialog">Перечень языков:</string>
-    <string name="settings_4.4_activity">Настройки для Android 4.4</string>
     <string name="settings_4.4_immersive">Режим &quot;Чтения&quot;</string>
     <string name="settings_4.4_immersive_summ">Отключает системные панели, для удобного чтения</string>
-    <!-- Тексты из "Настройки". Конец -->
+    <string name="settings_main">Общие настройки</string>
+    <string name="settings_4.4">Настройки для Android 4.4</string>
+    <string name="settings_teach">Советы по использованию</string>
+    <string name="settings_about">О программе</string>
+    <!-- Settings names. End -->
 
-    <!-- Тексты из "О программе". Начало -->
-    <string name="about_activity">О программе</string>
+    <!-- About names. Start -->
+    <string name="activity_about">О программе</string>
     <string name="about_version">Версия 1.1</string>
     <string name="about_copyright">© 2013&#8211;2014 Item Studio</string>
     <string name="about_desc">Learn IT! - универсальный математический справочник на все случаи жизни. \nМы постарались собрать всю необходимую для вас информацию в одном месте.</string>
@@ -25,58 +27,62 @@
     <string name="about_github"><u>Github</u></string>
     <string name="about_twitter"><u>Twitter</u></string>
     <string name="about_googleplus"><u>Google+</u></string>
-    <!-- Тексты из "О программе". Конец -->
+    <!-- About names. End -->
     
-    <!-- Тексты из "Отзыв". Начало -->
+    <!-- Email names. Start -->
     <string name="email_title">Отзыв о Learn IT!</string>
     <string name="email_thanks">Благодарим вас за отзыв!\n\n</string>
     <string name="email_device">Устройство:&#160;</string>
     <string name="email_api">\nУровень API:&#160;</string>
     <string name="email_version_programme">\nВерсия приложения:&#160;</string>
     <string name="email_os_version">\nВерсия OS:&#160;</string>
-    <!-- Тексты из "Отзыв". Конец -->
+    <!-- Email names. End -->
 
-    <!-- Тексты из "Теория". Начало -->
-    <string name="theory_view_activity">Просмотр теории</string>
+    <!-- Theory names. Start -->
+    <string name="activity_view_theory">Просмотр теории</string>
+    <string name="activity_theory">Теория</string>
     <string name="theory_header">СПИСОК ТЕОРИИ</string>
-    <string name="theory_fragment">Теория</string>
-    <!-- Тексты из "Теория". Конец -->
+    <string name="theory_title">Теория</string>
+    <!-- Theory names. End -->
 
-    <!-- Тексты из "Главная". Начало -->
+    <!-- Start names. Start -->
     <string name="start_pull">ПОТЯНИТЕ,\n ЧТОБЫ НАЧАТЬ</string>
     <string name="start_exit">Нажмите снова для выхода</string>
     <string name="start_main_text">Learn IT! - универсальный математический справочник на все случаи жизни</string>
-    <!-- Тексты из "Главная". Конец -->
+    <!-- Start names. End -->
 
-    <!-- Тексты из "История изменений". Начало -->
-    <string name="changelog_activity">История изменений</string>
+    <!-- Changelog names. Start -->
+    <string name="activity_changelog">История изменений</string>
     <string name="changelog_header_version">"Версия "</string>
-    <!-- Тексты из "История изменений". Конец -->
+    <!-- Changelog names. End -->
 
-    <!-- Тексты из "Помощь". Начало -->
-    <string name="teach_activity">Помощь</string>
-    <string name="teach_first_title">Добро пожаловать!</string>
-    <string name="teach_swipe">Потяните для начала работы</string>
+    <!-- Teach names. Start -->
+    <string name="activity_teach">Помощь</string>
     <string name="teach_second_title">Теория</string>
     <string name="teach_theory">Информация находится под пунктом Теория</string>
+    <string name="teach_first_title">Добро пожаловать!</string>
+    <string name="teach_swipe">Потяните для начала работы</string>
     <string name="teach_third_title">Настройки</string>
     <string name="teach_settings">Настройте приложение, в пункте Настройки</string>
+    <string name="teach_ready">Готово</string>
     <string name="teach_menu_ready">ГОТОВО</string>
-    <!-- Тексты из "Помощь". Конец -->
+    <!-- Teach names. End -->
     
-    <!-- Тексты из "Navigation Drawer". Начало -->
+    <!-- Drawer names. Start -->
     <string name="drawer_open">Боковая навигация открыта</string>
     <string name="drawer_close">Боковая навигация закрыта</string>
-    <!-- Тексты из "Navigation Drawer". Конец -->
+    <string name="drawer_settings">&#160;&#160;НАСТРОЙКИ</string>
+    <string name="drawer_help">&#160;&#160;ПОМОЩЬ</string>
+    <!-- Drawer names. End -->
     
-    <!-- Описания картинок. Начало -->
+    <!-- Content Description names. Start -->
     <string name="image_main_logo">Логотип приложения</string>
     <string name="image_teach_swipe">Потяните боковую панель</string>
     <string name="image_teach_theory">В приложении есть много теории</string>
     <string name="image_teach_settings">Настраивайте приложения по-своему вкусу</string>
-    <!-- Описания картинок. Конец -->
-    
-    <!-- Другие тексты. Начало -->
-    <string name="other_two_enteres">\n\n</string>
-    <!-- Другие тексты. Конец -->
+    <!-- Content Description names. End -->
+
+    <!-- Other names. Start -->
+    <string name="two_enteres">\n\n</string>
+    <!-- Other names. End -->
 </resources>

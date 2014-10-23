@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Learn IT!</string>
     
-    <!-- Тексти з "Налаштування". Початок -->
+    <!-- Settings names. Start -->
     <string name="settings_activity">Налаштування</string>
-    <string name="settings_main_activity">Загальні налаштування</string>
     <string name="settings_main_lang">Мова програми</string>
     <string name="settings_main_lang_summ">Змінити мову програми</string>
     <string name="settings_lang_dialog">Перелік мов:</string>
-    <string name="settings_4.4_activity">Налаштування для Android 4.4</string>
     <string name="settings_4.4_immersive">Режим &quot;Читання&quot;</string>
-    <string name="settings_4.4_immersive_summ">Вимикає системні панелі, для зручного читання</string>
-    <!-- Тексти з "Налаштування". Кінець -->
+    <string name="settings_4.4_immersive_summ">Відключає системні панелі, для зручного читання</string>
+    <string name="settings_main">Загальні налаштування</string>
+    <string name="settings_4.4">Налаштування для Android 4.4</string>
+    <string name="settings_teach">Поради щодо використання</string>
+    <string name="settings_about">Про програму</string>
+    <!-- Settings names. End -->
 
-    <!-- Тексти з "Про програму". Початок -->
-    <string name="about_activity">Про програму</string>
-    <string name="about_version">Версія 1.1</string>
+    <!-- About names. Start -->
+    <string name="activity_about">Про програму</string>
+    <string name="about_version">Версія 1.1 Beta 2</string>
     <string name="about_copyright">© 2013&#8211;2014 Item Studio</string>
     <string name="about_desc">Learn IT! - універсальний математичний довідник на всі випадки життя. \nМи спробували зібрати всю необхідну для вас інформацію в одному місці.</string>
     <string name="about_feedback">Висловіть свою думку</string>
@@ -26,58 +27,62 @@
     <string name="about_github"><u>Github</u></string>
     <string name="about_twitter"><u>Twitter</u></string>
     <string name="about_googleplus"><u>Google+</u></string>
-    <!-- Тексти з "Про програму". Кінець -->
+    <!-- About names. End -->
     
-    <!-- Тексти з "Відгук". Початок -->
+    <!-- Email names. Start -->
     <string name="email_title">Відгук про Learn IT!</string>
     <string name="email_thanks">Дякуємо вам за відгук!\n\n</string>
     <string name="email_device">Пристрій:&#160;</string>
     <string name="email_api">\nРівень API:&#160;</string>
     <string name="email_version_programme">\nВерсія програми:&#160;</string>
     <string name="email_os_version">\nВерсія OS:&#160;</string>
-    <!-- Тексти з "Відгук". Кінець -->
+    <!-- Email names. End -->
 
-    <!-- Тексти з "Теорія". Початок -->
-    <string name="theory_view_activity">Перегляд теорії</string>
+    <!-- Theory names. Start -->
+    <string name="activity_view_theory">Перегляд теорії</string>
+    <string name="activity_theory">Теорія</string>
     <string name="theory_header">ПЕРЕЛІК ТЕОРІЇ</string>
-    <string name="theory_fragment">Теорія</string>
-    <!-- Тексти з "Теорія". Кінець -->
+    <string name="theory_title">Теорія</string>
+    <!-- Theory names. End -->
 
-    <!-- Тексти з "Головна". Початок -->
+    <!-- Start names. Start -->
     <string name="start_pull">ПОТЯГНІТЬ,\n ЩОБ ПОЧАТИ</string>
     <string name="start_exit">Натисніть знову для виходу</string>
     <string name="start_main_text">Learn IT! - універсальний математичний довідник на всі випадки життя</string>
-    <!-- Тексти з "Головна". Кінець -->
+    <!-- Start names. End -->
 
-    <!-- Тексти з "Історія змін". Початок -->
-    <string name="changelog_activity">Історія змін</string>
+    <!-- Changelog names. Start -->
+    <string name="activity_changelog">Історія змін</string>
     <string name="changelog_header_version">"Версія "</string>
-    <!-- Тексти з "Історія змін". Кінець -->
+    <!-- Changelog names. End -->
 
-    <!-- Тексти з "Помощь". Початок -->
-    <string name="teach_activity">Допомога</string>
-    <string name="teach_first_title">Ласкаво просимо!</string>
-    <string name="teach_swipe">Потягніть для початку роботи</string>
+    <!-- Teach names. Start -->
+    <string name="activity_teach">Допомога</string>
     <string name="teach_second_title">Теорія</string>
-    <string name="teach_theory">Інформація знаходиться під пунктом Теорія</string>
+    <string name="teach_theory">Всю потрібну \nвам информацію \nвы знайдете, натиснув  пункт &quot;Теорія&quot;</string>
+    <string name="teach_first_title">Ласкаво просимо!</string>
+    <string name="teach_swipe">Щоб почати роботу, \nпотягніть бічну панель</string>
     <string name="teach_third_title">Налаштування</string>
-    <string name="teach_settings">Налаштуйте програму, в пункті Налаштування</string>
+    <string name="teach_settings">Налаштуйте програму по-своєму, \nнатиснувши пункт &quot;Налаштування&quot;</string>
+    <string name="teach_ready">Готово</string>
     <string name="teach_menu_ready">ГОТОВО</string>
-    <!-- Тексти з "Помощь". Кінець -->
+    <!-- Teach names. End -->
     
-    <!-- Тексти з "Navigation Drawer". Початок -->
+    <!-- Drawer names. Start -->
     <string name="drawer_open">Бічна навігація відкрита</string>
     <string name="drawer_close">Бічна навігація закрита</string>
-    <!-- Тексти з "Navigation Drawer". Кінець -->
+    <string name="drawer_settings">&#160;&#160;НАЛАШТУВАННЯ</string>
+    <string name="drawer_help">&#160;&#160;ДОПОМОГА</string>
+    <!-- Drawer names. End -->
     
-    <!-- Опис зображень. Початок -->
+    <!-- Content Description names. Start -->
     <string name="image_main_logo">Логотип програми</string>
     <string name="image_teach_swipe">Потягніть бічну панель</string>
     <string name="image_teach_theory">У програмі є багато теорії</string>
-    <string name="image_teach_settings">Налаштовуйте програму на свій смак</string>
-    <!-- Опис зображень. Кінець -->
-    
-    <!-- Інші тексти. Початок -->
-    <string name="other_two_enteres">\n\n</string>
-    <!-- Інші тексти. Кінець -->
+    <string name="image_teach_settings">Налаштовуйте програму на-свій смак</string>
+    <!-- Content Description names. End -->
+
+    <!-- Other names. Start -->
+    <string name="two_enteres">\n\n</string>
+    <!-- Other names. End -->
 </resources>

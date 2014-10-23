@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    <!-- Массив языков для настроек -->
     <string-array name="settings_entries_lang" translatable="false">
         <item>Українська</item>
         <item>Русский</item>
     </string-array>
-    
-    <!-- Используемые локализации -->
     <string-array name="settings_entryvalues_lang" translatable="false">
         <item>uk</item>
         <item>ru</item>
     </string-array>
-    
-    <!-- Массив для настроек -->
     <string-array name="settings_array">
         <item>Общие настройки</item>
         <item>Настройки для Android 4.4</item>
         <item>Помощь</item>
         <item>О программе</item>
     </string-array>
-    
-    <!-- Массив для Navigation Drawer'a -->
     <string-array name="drawer_titles">
         <item>Главная</item>
         <item>Теория</item>
         <item>Настройки</item>
         <item>О программе</item>
     </string-array>
-    
-    <!-- Массив для теории с алгебры -->
     <string-array name="theory_algebra_names">
         <item>Числа</item>
         <item>Арифметика</item>
@@ -58,8 +48,6 @@
         <item>Начала теории вероятностей</item>
         <item>Элементы статистики</item>
     </string-array>
-    
-    <!-- Массив для теории с геометрии -->
     <string-array name="theory_geometry_names">
         <item>Треугольник</item>
         <item>Прямоугольный треугольник</item>
@@ -80,7 +68,7 @@
         <item>Простейшие геометрические фигуры</item>
     </string-array>
 
-    <!-- Иконки для Navigation Drawer'a -->
+    <!-- Icon set for navigation drawer-->
     <array name="drawer_icon_set">
         <item>@drawable/ic_drawer_home</item>
         <item>@drawable/ic_drawer_theory</item>

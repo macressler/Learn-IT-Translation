@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    <!-- Масив для налаштувань -->
     <string-array name="settings_array">
         <item>Загальні налаштування</item>
         <item>Налаштування для Android 4.4</item>
         <item>Допомога</item>
         <item>Про програму</item>
     </string-array>
-    
-    <!-- Масив для Navigation Drawer'a -->
     <string-array name="drawer_titles">
         <item>Головна</item>
         <item>Теорія</item>
         <item>Налаштування</item>
         <item>Про програму</item>
     </string-array>
-    
-    <!-- Масив для теорії з алгебри -->
     <string-array name="theory_algebra_names">
 		<item>Числа</item>
         <item>Арифметика</item>
@@ -46,8 +40,6 @@
         <item>Початки теорії ймовірностей</item>
         <item>Елементи статистики</item>
 	</string-array>
-	
-    <!-- Масив для теорії з геометрії -->
     <string-array name="theory_geometry_names">
         <item>Трикутник</item>
         <item>Прямокутний трикутник</item>
@@ -68,7 +60,7 @@
         <item>Найпростіші геометричні фігури</item>
     </string-array>
 
-    <!-- Значки для Navigation Drawer'a -->
+    <!-- Icon set for navigation drawer-->
     <array name="drawer_icon_set">
         <item>@drawable/ic_drawer_home</item>
         <item>@drawable/ic_drawer_theory</item>
